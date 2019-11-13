@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="BitBuilder_v1.product_search"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BitBuilder_v1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="cart_view_bttn" Content="View Cart" Height="45" Margin="694,661,0,0" VerticalAlignment="Top" Width="151" RenderTransformOrigin="0.224,1.333"/>
+        <TextBox HorizontalAlignment="Left" Height="45" Margin="319,179,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="559"/>
+        <ComboBox Width="277" Margin="322,109,0,0" Height="44"/>
+        <ComboBox Width="230" Margin="319,251,0,0" Height="44" RenderTransformOrigin="0.453,-0.58"/>
+        <TextBlock HorizontalAlignment="Left" Height="40" Margin="85,249,0,0" Text="Sort by:" TextWrapping="Wrap" VerticalAlignment="Top" Width="94" FontSize="18"/>
+        <ListView x:Name="result_box" HorizontalAlignment="Center" Height="310" Margin="0,325,0,0" VerticalAlignment="Top" Width="1110" FontSize="18">
+            <ListView.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="#FFBEDDE4" Offset="1"/>
+                </LinearGradientBrush>
+            </ListView.Background>
+        </ListView>
+        <TextBlock HorizontalAlignment="Left" Height="40" Margin="85,119,0,0" Text="Category:" TextWrapping="Wrap" VerticalAlignment="Top" Width="94" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Height="40" Margin="85,179,0,0" Text="Product Name:" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" FontSize="18"/>
+        <Button x:Name="search_btn" Content="Search" Height="45" Margin="1034,58,0,0" VerticalAlignment="Top" Width="161"/>
+        <Button x:Name="close_bttn" Content="Close" Height="45" Margin="1044,661,0,0" VerticalAlignment="Top" Width="151" RenderTransformOrigin="0.224,1.333" Click="close_bttn_Click"/>
+        <Button x:Name="cart_add_bttn_Copy" Content="Add to Cart" Height="45" Margin="876,661,0,0" VerticalAlignment="Top" Width="151" RenderTransformOrigin="0.224,1.333"/>
+        <TextBlock HorizontalAlignment="Left" Height="58" Margin="85,33,0,0" Text="Product Search" TextWrapping="Wrap" VerticalAlignment="Top" Width="203" FontFamily="Calibri Light" FontSize="28" Foreground="#FF2097B2"/>
+    </Grid>
+</Page>
