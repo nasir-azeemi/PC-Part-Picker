@@ -9,49 +9,70 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <NavigationView x:Name="NavView"
+        <Frame x:Name="frame1">
+            <NavigationView x:Name="NavView"
                          Loaded="NavView_Loaded"
                          ItemInvoked="NavView_ItemInvoked"
-                         IsBackEnabled="False"
+                         IsBackEnabled="True"
                         IsSettingsVisible="False"
+                        BackRequested="NavView_BackRequested"
                         IsBackButtonVisible="Auto">
-            <NavigationView.MenuItems>
-                <NavigationViewItem Tag="processor"  Content="Processor"/>
-                <NavigationViewItem Tag="motherboard" Content="Motherboard"/>
-                <NavigationViewItem Tag="gpu" Content="GPU"/>
-                <NavigationViewItem Tag="storage"  Content="Storage"/>
-                <NavigationViewItem Tag="chassis"  Content="Chassis"/>
-                <NavigationViewItem Tag="memory"  Content="Memory"/>
-                <NavigationViewItem Tag="psu"  Content="PSU"/>
-                <NavigationViewItem Tag="display"  Content="Display"/>
-                <NavigationViewItem Tag="peripheral" Content="Peripheral"/>
-               
-            </NavigationView.MenuItems>
+                <NavigationView.MenuItems>
+                    <NavigationViewItem Tag="processor" >
+                        <TextBlock Tag="processor">Processor</TextBlock>
+                    </NavigationViewItem>
+                    <NavigationViewItem Tag="motherboard">
+                        <TextBlock Tag="motherboard">Motherboard</TextBlock>
+                    </NavigationViewItem>
+                    <NavigationViewItem Tag="gpu">
+                        <TextBlock Tag="gpu">GPU</TextBlock>
+                    </NavigationViewItem>
+                    <NavigationViewItem Tag="storage">
+                        <TextBlock Tag="storage">Storage</TextBlock>
+                    </NavigationViewItem>
+                    <NavigationViewItem Tag="chassis">
+                        <TextBlock Tag="chassis">Chassis</TextBlock>
+                    </NavigationViewItem>
+                    <NavigationViewItem Tag="memory">
+                        <TextBlock Tag="memory">Memory</TextBlock>
+                    </NavigationViewItem>
+                    <NavigationViewItem Tag="psu">
+                        <TextBlock Tag="psu">PSU</TextBlock>
+                    </NavigationViewItem>
+                    <NavigationViewItem Tag="display">
+                        <TextBlock Tag="display">Display</TextBlock>
+                    </NavigationViewItem>
+                    <NavigationViewItem Tag="peripheral">
+                        <TextBlock Tag="peripheral">Peripheral</TextBlock>
+                    </NavigationViewItem>
 
-            <ScrollViewer>
-                <Frame x:Name="ContentFrame" Padding="12,0,12,24" IsTabStop="True"
+                </NavigationView.MenuItems>
+
+                <ScrollViewer>
+                    <Frame x:Name="ContentFrame" Padding="12,0,12,24" IsTabStop="True"
                    NavigationFailed="ContentFrame_NavigationFailed">
-                    
-                </Frame>
-            </ScrollViewer>
-        </NavigationView>
 
-        <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup>
-                <VisualState>
-                    <VisualState.StateTriggers>
-                        <!--<AdaptiveTrigger
+                    </Frame>
+                </ScrollViewer>
+            </NavigationView>
+
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup>
+                    <VisualState>
+                        <VisualState.StateTriggers>
+                            <!--<AdaptiveTrigger
                         MinWindowWidth="{x:Bind NavView.CompactModeThresholdWidth}"/> -->
-                    </VisualState.StateTriggers>
-                    <VisualState.Setters>
-                        <!-- Remove the next 3 lines for left-only navigation. -->
-                        <Setter Target="NavView.PaneDisplayMode" Value="Top"/>
-                        <Setter Target="MainPagesHeader1.Visibility" Value="Collapsed"/>
-                        <!-- Leave the next line for left-only navigation. -->
-                        
-                    </VisualState.Setters>
-                </VisualState>
-            </VisualStateGroup>
-        </VisualStateManager.VisualStateGroups>
+                        </VisualState.StateTriggers>
+                        <VisualState.Setters>
+                            <!-- Remove the next 3 lines for left-only navigation. -->
+                            <Setter Target="NavView.PaneDisplayMode" Value="Top"/>
+                            <Setter Target="MainPagesHeader1.Visibility" Value="Collapsed"/>
+                            <!-- Leave the next line for left-only navigation. -->
+
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+        </Frame>
     </Grid>
 </Page>

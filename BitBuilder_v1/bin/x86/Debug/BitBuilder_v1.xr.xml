@@ -23,6 +23,7 @@
       <RootProperty Name="Inlines" />
       <RootProperty Name="Text" />
       <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="Tag" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
@@ -53,6 +54,12 @@
     <RootType FullName="Windows.UI.Xaml.Documents.LineBreak" />
     <RootType FullName="BitBuilder_v1.accdetails" />
     <RootType FullName="BitBuilder_v1.admin_dash" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="IsTabStop" />
+      <RootEvent Name="NavigationFailed" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.VisualStateManager">
       <RootMethod Name="GetVisualStateGroups" />
     </RootType>
@@ -64,6 +71,7 @@
       <RootProperty Name="Content" />
       <RootEvent Name="Loaded" />
       <RootEvent Name="ItemInvoked" />
+      <RootEvent Name="BackRequested" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationViewItem">
       <RootProperty Name="Tag" />
@@ -71,11 +79,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="Content" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Frame">
-      <RootProperty Name="Padding" />
-      <RootProperty Name="IsTabStop" />
-      <RootEvent Name="NavigationFailed" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.VisualStateGroup">
       <RootProperty Name="States" />
@@ -100,6 +103,8 @@
     <RootType FullName="BitBuilder_v1.add_gpu" />
     <RootType FullName="BitBuilder_v1.add_storage" />
     <RootType FullName="BitBuilder_v1.add_memory" />
+    <RootType FullName="BitBuilder_v1.add_psu" />
+    <RootType FullName="BitBuilder_v1.add_chassis" />
     <RootType FullName="BitBuilder_v1.persdetail" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="HorizontalAlignment" />

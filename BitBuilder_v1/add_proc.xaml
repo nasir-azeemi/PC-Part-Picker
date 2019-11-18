@@ -16,7 +16,6 @@
         <TextBlock HorizontalAlignment="Left" Height="30" Margin="69,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18" SelectionChanged="TextBlock_SelectionChanged" Text="Unit Price"/>
         <TextBlock HorizontalAlignment="Left" Height="30" Margin="69,250,0,0" Text="Product Type" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18" SelectionChanged="TextBlock_SelectionChanged"/>
         <TextBlock HorizontalAlignment="Left" Height="30" Margin="69,309,0,0" Text="Vendor" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18" SelectionChanged="TextBlock_SelectionChanged"/>
-        <Button x:Name="cancelbtn" Content="Cancel" Height="39" Margin="889,641,0,0" VerticalAlignment="Top" Width="162" Click="cancel_click" FontSize="18"/>
         <Button x:Name="addbtn" Content="Add" Height="39" Margin="1080,641,0,0" VerticalAlignment="Top" Width="162" FontSize="18" Click="addbtn_Click"/>
         <ComboBox x:Name="citycombobox_Copy" Height="40" Margin="321,476,0,0" Width="292"/>
         <TextBox x:Name="namebox_Copy" HorizontalAlignment="Left" Height="40" Margin="321,184,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292"/>

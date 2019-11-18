@@ -31,16 +31,20 @@ namespace BitBuilder_v1
         private void NavView_Loaded(object sender, RoutedEventArgs e)
         {
             // set the initial SelectedItem
-          foreach (NavigationViewItemBase item in NavView.MenuItems)
+            foreach (NavigationViewItemBase item in NavView.MenuItems)
+            {
+                if (item is NavigationViewItem && item.Tag.ToString() == "processor")
                 {
-                    if (item is NavigationViewItem && item.Tag.ToString() == "processor")
-                    {
-                        NavView.SelectedItem = item;
-                        break;
-                    }
+                    NavView.SelectedItem = item;
+                    break;
                 }
-                ContentFrame.Navigate(typeof(add_proc));
             }
+            /*ContentFrame.Navigate(typeof(add_proc));
+
+
+
+            ContentFrame.Navigated += On_Navigated;*/
+        }
 
         private void NavView_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
         {
@@ -56,35 +60,35 @@ namespace BitBuilder_v1
                 switch (ItemContent.Tag)
                 {
                     case "processor":                   
-                        ContentFrame.Navigate(typeof(add_proc));
+                        this.ContentFrame.Navigate(typeof(add_proc));
                         break;
 
                     case "motherboard":
-                        ContentFrame.Navigate(typeof(add_mobo));
+                        this.ContentFrame.Navigate(typeof(add_mobo));
                         break;
 
                     case "gpu":
-                        ContentFrame.Navigate(typeof(add_gpu));
+                        this.ContentFrame.Navigate(typeof(add_gpu));
                         break;
 
                     case "storage":
-                        ContentFrame.Navigate(typeof(add_storage));
+                        this.ContentFrame.Navigate(typeof(add_storage));
                         break;
 
                     case "memory":
-                        ContentFrame.Navigate(typeof(add_memory));
+                        this.ContentFrame.Navigate(typeof(add_memory));
                         break;
                     case "chassis":
-                        ContentFrame.Navigate(typeof(user_dash));
+                        this.ContentFrame.Navigate(typeof(add_chassis));
                         break;
                     case "psu":
-                        ContentFrame.Navigate(typeof(user_dash));
+                        this.ContentFrame.Navigate(typeof(add_psu));
                         break;
                     case "peripheral":
-                        ContentFrame.Navigate(typeof(user_dash));
+                        this.ContentFrame.Navigate(typeof(user_dash));
                         break;
                     case "display":
-                        ContentFrame.Navigate(typeof(user_dash));
+                        this.ContentFrame.Navigate(typeof(user_dash));
                         break;
                 }
             }
@@ -92,6 +96,61 @@ namespace BitBuilder_v1
         }
         #endregion
 
+        private void NavView_BackRequested(NavigationView sender,
+                                   NavigationViewBackRequestedEventArgs args)
+        {
+            On_BackRequested();
+        }
+
+
+        private bool On_BackRequested()
+        {
+            /* if (!ContentFrame.CanGoBack)
+                 return false;
+
+             // Don't go back if the nav pane is overlayed.
+             if (NavView.IsPaneOpen &&
+                 (NavView.DisplayMode == NavigationViewDisplayMode.Compact ||
+                  NavView.DisplayMode == NavigationViewDisplayMode.Minimal))
+                 return false;
+
+             ContentFrame.GoBack();
+             return true;*/
+            frame1.Navigate(typeof(admin_dash));
+            
+
+            return true;
+        }
+
+    /*    private void On_Navigated(object sender, NavigationEventArgs e)
+        {
+            NavView.IsBackEnabled = ContentFrame.CanGoBack;
+
+            if (ContentFrame.SourcePageType != null)
+            {
+                var item = _pages.FirstOrDefault(p => p.Page == e.SourcePageType);
+
+                NavView.SelectedItem = NavView.MenuItems
+                    .OfType<NavigationViewItem>()
+                    .First(n => n.Tag.Equals(item.Tag));
+
+                NavView.Header =
+                    ((NavigationViewItem)NavView.SelectedItem)?.Content?.ToString();
+            }
+        }
+
+        private readonly List<(string Tag, Type Page)> _pages = new List<(string Tag, Type Page)>
+        {
+            ("processor", typeof(add_proc)),
+            ("motherboard", typeof(add_mobo)),
+            ("psu", typeof(add_proc)),
+            ("gpu", typeof(add_gpu)),
+            ("chassis", typeof(add_gpu)),
+            ("storage", typeof(add_storage)),
+            ("memory", typeof(add_memory)),
+            ("peripherals", typeof(add_memory)),
+            ("display", typeof(add_memory)),
+        };*/
         private void ContentFrame_NavigationFailed(object sender, NavigationFailedEventArgs e)
         {
 

@@ -35,7 +35,7 @@ namespace BitBuilder_v1
 
         private void cancel_click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(add_prod));
+            this.Frame.Navigate(typeof(admin_dash));
         }
 
         private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
