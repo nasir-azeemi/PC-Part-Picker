@@ -58,6 +58,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
       <RootProperty Name="IsBackEnabled" />
+      <RootProperty Name="IsSettingsVisible" />
       <RootProperty Name="IsBackButtonVisible" />
       <RootProperty Name="MenuItems" />
       <RootProperty Name="Content" />
@@ -95,6 +96,10 @@
       <RootProperty Name="RenderTransformOrigin" />
     </RootType>
     <RootType FullName="BitBuilder_v1.add_proc" />
+    <RootType FullName="BitBuilder_v1.add_mobo" />
+    <RootType FullName="BitBuilder_v1.add_gpu" />
+    <RootType FullName="BitBuilder_v1.add_storage" />
+    <RootType FullName="BitBuilder_v1.add_memory" />
     <RootType FullName="BitBuilder_v1.persdetail" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="HorizontalAlignment" />

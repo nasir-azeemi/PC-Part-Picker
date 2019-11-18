@@ -33,7 +33,7 @@ namespace BitBuilder_v1
             // set the initial SelectedItem
           foreach (NavigationViewItemBase item in NavView.MenuItems)
                 {
-                    if (item is NavigationViewItem && item.Tag.ToString() == "Processor")
+                    if (item is NavigationViewItem && item.Tag.ToString() == "processor")
                     {
                         NavView.SelectedItem = item;
                         break;
@@ -55,24 +55,24 @@ namespace BitBuilder_v1
             {
                 switch (ItemContent.Tag)
                 {
-                    case "processor":
+                    case "processor":                   
                         ContentFrame.Navigate(typeof(add_proc));
                         break;
 
                     case "motherboard":
-                        ContentFrame.Navigate(typeof(user_dash));
+                        ContentFrame.Navigate(typeof(add_mobo));
                         break;
 
                     case "gpu":
-                        ContentFrame.Navigate(typeof(user_dash));
+                        ContentFrame.Navigate(typeof(add_gpu));
                         break;
 
                     case "storage":
-                        ContentFrame.Navigate(typeof(user_dash));
+                        ContentFrame.Navigate(typeof(add_storage));
                         break;
 
                     case "memory":
-                        ContentFrame.Navigate(typeof(user_dash));
+                        ContentFrame.Navigate(typeof(add_memory));
                         break;
                     case "chassis":
                         ContentFrame.Navigate(typeof(user_dash));

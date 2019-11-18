@@ -7,8 +7,12 @@ Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 accdetails.xbf
+add_gpu.xbf
+add_memory.xbf
+add_mobo.xbf
 add_proc.xbf
 add_product.xbf
+add_storage.xbf
 admin_dash.xbf
 App.xbf
 BitBuilder_v1.xr.xml

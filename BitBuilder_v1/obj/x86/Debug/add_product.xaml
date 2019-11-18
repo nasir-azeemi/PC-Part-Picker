@@ -13,6 +13,7 @@
                                                 
                                                           
                          IsBackEnabled="False"
+                        IsSettingsVisible="False"
                         IsBackButtonVisible="Auto">
             <NavigationView.MenuItems>
                 <NavigationViewItem Tag="processor"  Content="Processor"/>

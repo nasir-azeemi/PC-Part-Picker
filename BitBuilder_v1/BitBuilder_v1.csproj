@@ -131,6 +131,18 @@
     <Compile Include="add_proc.xaml.cs">
       <DependentUpon>add_proc.xaml</DependentUpon>
     </Compile>
+    <Compile Include="add_mobo.xaml.cs">
+      <DependentUpon>add_mobo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="add_gpu.xaml.cs">
+      <DependentUpon>add_gpu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="add_storage.xaml.cs">
+      <DependentUpon>add_storage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="add_memory.xaml.cs">
+      <DependentUpon>add_memory.xaml</DependentUpon>
+    </Compile>
     <Compile Include="persdetail.xaml.cs">
       <DependentUpon>persdetail.xaml</DependentUpon>
     </Compile>
@@ -187,6 +199,22 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="add_proc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="add_mobo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="add_gpu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="add_storage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="add_memory.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
