@@ -125,6 +125,12 @@
     <Compile Include="admin_dash.xaml.cs">
       <DependentUpon>admin_dash.xaml</DependentUpon>
     </Compile>
+    <Compile Include="add_product.xaml.cs">
+      <DependentUpon>add_product.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="add_proc.xaml.cs">
+      <DependentUpon>add_proc.xaml</DependentUpon>
+    </Compile>
     <Compile Include="persdetail.xaml.cs">
       <DependentUpon>persdetail.xaml</DependentUpon>
     </Compile>
@@ -173,6 +179,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="admin_dash.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="add_product.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="add_proc.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

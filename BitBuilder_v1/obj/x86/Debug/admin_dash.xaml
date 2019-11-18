@@ -11,7 +11,7 @@
     <Grid>
         <TextBlock x:ConnectionId='2' x:Name="welcome_txt" HorizontalAlignment="Left" Height="48" Margin="57,30,0,0" Text="Welcome &lt;Admin&gt;!" TextWrapping="Wrap" VerticalAlignment="Top" Width="494" Foreground="#FF2097B2" FontFamily="Calibri Light" FontSize="28"/>
         <Button x:ConnectionId='3' x:Name="upd_productbtn" Content="Update Product" Height="44" Margin="259,222,0,0" VerticalAlignment="Top" Width="169" RenderTransformOrigin="0.884,0.58"                                />
-        <Button x:ConnectionId='4' x:Name="add_bttn" Content="Add Product" Height="44" Margin="57,222,0,0" VerticalAlignment="Top" Width="135"                       />
+        <Button x:ConnectionId='4' x:Name="add_bttn" Content="Add Product" Height="44" Margin="57,222,0,0" VerticalAlignment="Top" Width="135"                       ></Button>
         <TextBlock x:ConnectionId='5' HorizontalAlignment="Left" Height="43" Margin="57,158,0,0" Text="Manage Products" TextWrapping="Wrap" VerticalAlignment="Top" Width="264"                                               FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Height="43" Margin="55,341,0,0" Text="Manage Orders" TextWrapping="Wrap" VerticalAlignment="Top" Width="264" FontSize="18"/>
         <Button x:ConnectionId='6' x:Name="view_orderbtn" Content="View Order Placed" Height="44" Margin="55,395,0,0" VerticalAlignment="Top" Width="148"                            />

@@ -29,7 +29,7 @@ namespace BitBuilder_v1
 
         private void add_bttn_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(add_prod));
         }
 
         private void update_pricebtn_Click(object sender, RoutedEventArgs e)
@@ -54,6 +54,51 @@ namespace BitBuilder_v1
         }
 
         private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Processor_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void mobo_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void gpu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void chassis_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void storage_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void psu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void memory_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void displays_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void periph_Click(object sender, RoutedEventArgs e)
         {
 
         }
