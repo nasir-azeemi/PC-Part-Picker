@@ -50,7 +50,7 @@ namespace BitBuilder_v1
 
         private void update_productbtn_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(update_prod));
         }
 
         private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)

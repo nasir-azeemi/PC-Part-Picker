@@ -284,6 +284,12 @@
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_chassis.xbf">
       <PackagePath>add_chassis.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_chassis.xbf">
+      <PackagePath>upd_chassis.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\update_prod.xbf">
+      <PackagePath>update_prod.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\persdetail.xbf">
       <PackagePath>persdetail.xbf</PackagePath>
     </AppxPackagedFile>
