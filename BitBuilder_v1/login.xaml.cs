@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using static BitBuilder_v1.App;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -25,13 +26,18 @@ namespace BitBuilder_v1
     {
         bool newuserflag = false;
         bool adminflag = false;
+        AppUsers login_new = new AppUsers();
         public MainPage()
         {
             this.InitializeComponent();
             List<users> userlst = new List<users>();
             userlst.Add(new users("admin", "1234"));
+            
+            login_new = ((App)Application.Current).UserLogin((App.Current as App).ConnectionString);
 
         }
+
+        
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -50,7 +56,16 @@ namespace BitBuilder_v1
 
         private  void signbttn_Click(object sender, RoutedEventArgs e)
         {
-            // Navigate to MyNewPage.xaml   
+            // Navigate to MyNewPage.xaml
+            
+            /*if (emailbox.Text in login_new.userid)
+            {
+
+            }
+            */
+
+
+
             if (newuserflag && adminflag)
             {
 
@@ -67,6 +82,12 @@ namespace BitBuilder_v1
                 this.Frame.Navigate(typeof(registerform));
             }
             else if(adminflag)
+            {
+                this.Frame.Navigate(typeof(admin_dash));
+            }
+
+
+            else if (login_new.isAdmin)
             {
                 this.Frame.Navigate(typeof(admin_dash));
             }

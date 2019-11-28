@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data.SqlClient;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -33,10 +36,80 @@ namespace BitBuilder_v1
         }
 
 
-        //private string connectionString =
-        //@"Data Source=.\SQLEXPRESS;Initial Catalog=BitBuilder;Integrated Security=SSPI";
+        private string connectionString =
+        @"Data Source=.\SQLEXPRESS;Initial Catalog=BitBuilder;Integrated Security=SSPI";
 
-        //public string ConnectionString { get => connectionString; set => connectionString = value; }
+        public string ConnectionString { get => connectionString; set => connectionString = value; }
+
+        public class AppUsers : INotifyPropertyChanged
+        {
+
+            public int AppUserID { get; set; }
+            public string userid { get; set; }
+
+            public string userpassword { get; set; }
+            public bool isAdmin { get; set; }
+            public int CustomerID { get; set; }
+
+
+            public event PropertyChangedEventHandler PropertyChanged;
+            private void NotifyPropertyChanged(string propertyName)
+            {
+                if (PropertyChanged != null)
+                {
+                    PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+                }
+            }
+
+        }
+
+
+        public AppUsers UserLogin(string connectionString)
+        {
+            const string check_user = "select userid, userpassword from AppUser;";
+
+            try
+            {
+                var xAppUsers = new AppUsers();
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    if (conn.State == System.Data.ConnectionState.Open)
+                    {
+                        using (SqlCommand cmd = conn.CreateCommand())
+                        {
+                            cmd.CommandText = check_user;
+                            using (SqlDataReader reader = cmd.ExecuteReader())
+                            {
+                                while (reader.Read())
+                                {
+                                    
+                                    xAppUsers.AppUserID = reader.GetInt32(0);
+                                    xAppUsers.userid = reader.GetString(1);
+                                    xAppUsers.userpassword = reader.GetString(2);
+                                    xAppUsers.isAdmin = reader.GetBoolean(3);
+                                    xAppUsers.CustomerID = reader.GetInt16(4);
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+                return xAppUsers;
+            }
+            catch (Exception eSql)
+            {
+                Debug.WriteLine("Exception: " + eSql.Message);
+            }
+            return null;
+        }
+
+
+
+
+
+
+
 
 
         /// <summary>
