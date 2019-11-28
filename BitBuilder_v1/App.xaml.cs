@@ -32,6 +32,13 @@ namespace BitBuilder_v1
             this.Suspending += OnSuspending;
         }
 
+
+        //private string connectionString =
+        //@"Data Source=.\SQLEXPRESS;Initial Catalog=BitBuilder;Integrated Security=SSPI";
+
+        //public string ConnectionString { get => connectionString; set => connectionString = value; }
+
+
         /// <summary>
         /// Invoked when the application is launched normally by the end user.  Other entry points
         /// will be used such as when the application is launched to open a specific file.

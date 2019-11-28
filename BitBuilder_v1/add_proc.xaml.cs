@@ -42,5 +42,11 @@ namespace BitBuilder_v1
         {
 
         }
+
+
+        private void type_box_changed(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

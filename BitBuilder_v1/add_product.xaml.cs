@@ -85,10 +85,10 @@ namespace BitBuilder_v1
                         this.ContentFrame.Navigate(typeof(add_psu));
                         break;
                     case "peripheral":
-                        this.ContentFrame.Navigate(typeof(user_dash));
+                        this.ContentFrame.Navigate(typeof(add_periph));
                         break;
                     case "display":
-                        this.ContentFrame.Navigate(typeof(user_dash));
+                        this.ContentFrame.Navigate(typeof(add_disp));
                         break;
                 }
             }

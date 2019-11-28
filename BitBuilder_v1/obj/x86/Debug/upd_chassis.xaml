@@ -16,7 +16,7 @@
         <TextBlock x:ConnectionId='6' HorizontalAlignment="Left" Height="30" Margin="69,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18"                                               Text="Unit Price"/>
         <TextBlock x:ConnectionId='7' HorizontalAlignment="Left" Height="30" Margin="69,250,0,0" Text="Product Type" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18"                                              />
         <TextBlock x:ConnectionId='8' HorizontalAlignment="Left" Height="30" Margin="69,309,0,0" Text="Vendor" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18"                                              />
-        <Button x:ConnectionId='9' x:Name="addbtn" Content="Update" Height="39" Margin="1080,641,0,0" VerticalAlignment="Top" Width="162" FontSize="18"                  />
+        <Button x:ConnectionId='9' x:Name="addbtn" Content="Update" Height="39" Margin="793,547,0,0" VerticalAlignment="Top" Width="162" FontSize="18"                  />
         <ComboBox x:ConnectionId='10' x:Name="citycombobox_Copy" Height="40" Margin="321,431,0,0" Width="292"/>
         <TextBox x:ConnectionId='11' x:Name="namebox_Copy" HorizontalAlignment="Left" Height="40" Margin="321,184,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292"/>
         <TextBox x:ConnectionId='12' x:Name="namebox_Copy1" HorizontalAlignment="Left" Height="40" Margin="321,250,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" IsEnabled="False"/>

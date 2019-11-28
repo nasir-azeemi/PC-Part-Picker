@@ -87,7 +87,7 @@ namespace BitBuilder_v1
                         this.ContentFrame.Navigate(typeof(user_dash));
                         break;
                     case "display":
-                        this.ContentFrame.Navigate(typeof(user_dash));
+                        this.ContentFrame.Navigate(typeof(upd_display));
                         break;
                 }
             }

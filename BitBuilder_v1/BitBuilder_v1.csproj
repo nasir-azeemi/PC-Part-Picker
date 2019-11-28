@@ -149,6 +149,15 @@
     <Compile Include="add_chassis.xaml.cs">
       <DependentUpon>add_chassis.xaml</DependentUpon>
     </Compile>
+    <Compile Include="add_periph.xaml.cs">
+      <DependentUpon>add_periph.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="add_disp.xaml.cs">
+      <DependentUpon>add_disp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="upd_disp.xaml.cs">
+      <DependentUpon>upd_disp.xaml</DependentUpon>
+    </Compile>
     <Compile Include="upd_chassis.xaml.cs">
       <DependentUpon>upd_chassis.xaml</DependentUpon>
     </Compile>
@@ -285,6 +294,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="add_chassis.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="add_periph.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="add_disp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="upd_disp.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

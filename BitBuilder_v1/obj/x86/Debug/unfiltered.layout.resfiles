@@ -58,9 +58,11 @@ Assets\Wide310x150Logo.scale-200.png
 Assets\Wide310x150Logo.scale-400.png
 accdetails.xbf
 add_chassis.xbf
+add_disp.xbf
 add_gpu.xbf
 add_memory.xbf
 add_mobo.xbf
+add_periph.xbf
 add_proc.xbf
 add_product.xbf
 add_psu.xbf
@@ -75,6 +77,7 @@ persdetail.xbf
 product_search.xbf
 registerform.xbf
 upd_chassis.xbf
+upd_disp.xbf
 update_prod.xbf
 user_dash.xbf
 Properties\Default.rd.xml
