@@ -14,8 +14,9 @@
         <Button x:Name="add_bttn" Content="Add Product" Height="44" Margin="57,222,0,0" VerticalAlignment="Top" Width="135" Click="add_bttn_Click"></Button>
         <TextBlock HorizontalAlignment="Left" Height="43" Margin="57,158,0,0" Text="Manage Products" TextWrapping="Wrap" VerticalAlignment="Top" Width="264" SelectionChanged="TextBlock_SelectionChanged" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Height="43" Margin="55,341,0,0" Text="Manage Orders" TextWrapping="Wrap" VerticalAlignment="Top" Width="264" FontSize="18"/>
-        <Button x:Name="view_orderbtn" Content="View Order Placed" Height="44" Margin="55,395,0,0" VerticalAlignment="Top" Width="148" Click="view_orderbtn_Click"/>
+        <Button x:Name="view_orderbtn" Content="View Orders Placed" Height="44" Margin="55,395,0,0" VerticalAlignment="Top" Width="148" Click="view_orderbtn_Click"/>
         <Button x:Name="update_orderbtn" Content="Update Order" Height="44" Margin="280,395,0,0" VerticalAlignment="Top" Width="148" Click="update_orderbtn_Click"/>
         <Button x:Name="update_pricebtn" Content="Update Price" Height="44" Margin="482,222,0,0" VerticalAlignment="Top" Width="169" RenderTransformOrigin="0.884,0.58" Click="update_pricebtn_Click"/>
+        <Button x:Name="view_prod" Content="View All Products" Height="44" Margin="720,222,0,0" VerticalAlignment="Top" Width="169" RenderTransformOrigin="0.884,0.58" Click="view_prod_Click"/>
     </Grid>
 </Page>

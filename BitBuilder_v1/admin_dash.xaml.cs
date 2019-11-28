@@ -34,7 +34,7 @@ namespace BitBuilder_v1
 
         private void update_pricebtn_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(upd_price));
         }
 
         private void view_orderbtn_Click(object sender, RoutedEventArgs e)
@@ -99,6 +99,11 @@ namespace BitBuilder_v1
         }
 
         private void periph_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void view_prod_Click(object sender, RoutedEventArgs e)
         {
 
         }

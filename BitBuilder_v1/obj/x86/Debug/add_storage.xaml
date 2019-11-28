@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Height="47" Margin="82,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="418" Foreground="#FF2097B2" FontSize="28" FontFamily="Calibri Light" Text="Add Storage Hardware"/>
+        <TextBlock HorizontalAlignment="Left" Height="47" Margin="82,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="418" Foreground="#FF2097B2" FontSize="28" FontFamily="Calibri Light" Text="Add Storage"/>
         <TextBlock x:ConnectionId='2' HorizontalAlignment="Left" Height="52" Margin="69,476,0,0" Text="Storage Type" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" FontSize="18"                                              />
         <TextBlock x:ConnectionId='3' HorizontalAlignment="Left" Height="30" Margin="69,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18"                                               Text="Product Name"/>
         <TextBox x:ConnectionId='4' x:Name="namebox" HorizontalAlignment="Left" Height="40" Margin="321,124,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292"/>
@@ -18,14 +18,14 @@
         <TextBlock x:ConnectionId='7' HorizontalAlignment="Left" Height="30" Margin="69,309,0,0" Text="Vendor" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18"                                              />
         <Button x:ConnectionId='8' x:Name="cancelbtn" Content="Cancel" Height="39" Margin="889,641,0,0" VerticalAlignment="Top" Width="162"                      FontSize="18"/>
         <Button x:ConnectionId='9' x:Name="addbtn" Content="Add" Height="39" Margin="1080,641,0,0" VerticalAlignment="Top" Width="162" FontSize="18"                     />
-        <ComboBox x:ConnectionId='10' x:Name="citycombobox_Copy" Height="40" Margin="321,476,0,0" Width="292"/>
-        <TextBox x:ConnectionId='11' x:Name="namebox_Copy" HorizontalAlignment="Left" Height="40" Margin="321,184,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292"/>
-        <TextBox x:ConnectionId='12' x:Name="namebox_Copy1" HorizontalAlignment="Left" Height="40" Margin="321,250,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" IsEnabled="False"/>
-        <TextBox x:ConnectionId='13' x:Name="namebox_Copy2" HorizontalAlignment="Left" Height="40" Margin="321,308,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292"/>
-        <TextBlock x:ConnectionId='14' HorizontalAlignment="Left" Height="30" Margin="69,370,0,0" Text="Brand" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18"                                              />
-        <ComboBox x:ConnectionId='15' x:Name="citycombobox_Copy1" Height="40" Margin="321,362,0,0" Width="292"/>
-        <TextBlock x:ConnectionId='16' HorizontalAlignment="Left" Height="30" Margin="69,423,0,0" Text="Storage Capacity" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18"                                              />
-        <TextBox x:ConnectionId='17' x:Name="namebox_Copy3" HorizontalAlignment="Left" Height="40" Margin="321,423,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292"/>
+        <TextBox x:ConnectionId='10' x:Name="namebox_Copy" HorizontalAlignment="Left" Height="40" Margin="321,184,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292"/>
+        <TextBox x:ConnectionId='11' x:Name="namebox_Copy1" HorizontalAlignment="Left" Height="40" Margin="321,250,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" IsEnabled="False"/>
+        <TextBox x:ConnectionId='12' x:Name="namebox_Copy2" HorizontalAlignment="Left" Height="40" Margin="321,308,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292"/>
+        <TextBlock x:ConnectionId='13' HorizontalAlignment="Left" Height="30" Margin="69,370,0,0" Text="Brand" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18"                                              />
+        <ComboBox x:ConnectionId='14' x:Name="citycombobox_Copy1" Height="40" Margin="321,362,0,0" Width="292"/>
+        <TextBlock x:ConnectionId='15' HorizontalAlignment="Left" Height="30" Margin="69,423,0,0" Text="Storage Capacity" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18"                                              />
+        <TextBox x:ConnectionId='16' x:Name="namebox_Copy3" HorizontalAlignment="Left" Height="40" Margin="321,423,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292"/>
+        <TextBox x:ConnectionId='17' x:Name="namebox_Copy4" HorizontalAlignment="Left" Height="40" Margin="321,476,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292"/>
     </Grid>
 </Page>
 

@@ -155,6 +155,30 @@
     <Compile Include="add_disp.xaml.cs">
       <DependentUpon>add_disp.xaml</DependentUpon>
     </Compile>
+    <Compile Include="upd_price.xaml.cs">
+      <DependentUpon>upd_price.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="upd_storage.xaml.cs">
+      <DependentUpon>upd_storage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="upd_psu.xaml.cs">
+      <DependentUpon>upd_psu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="upd_proc.xaml.cs">
+      <DependentUpon>upd_proc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="upd_periph.xaml.cs">
+      <DependentUpon>upd_periph.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="upd_mobo.xaml.cs">
+      <DependentUpon>upd_mobo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="upd_memory.xaml.cs">
+      <DependentUpon>upd_memory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="upd_gpu.xaml.cs">
+      <DependentUpon>upd_gpu.xaml</DependentUpon>
+    </Compile>
     <Compile Include="upd_disp.xaml.cs">
       <DependentUpon>upd_disp.xaml</DependentUpon>
     </Compile>
@@ -302,6 +326,38 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="add_disp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="upd_price.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="upd_storage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="upd_psu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="upd_proc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="upd_periph.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="upd_mobo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="upd_memory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="upd_gpu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

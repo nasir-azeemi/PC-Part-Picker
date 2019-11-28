@@ -35,6 +35,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="IsEnabled" />
+      <RootProperty Name="PlaceholderText" />
       <RootProperty Name="FontSize" />
       <RootEvent Name="TextChanged" />
     </RootType>
@@ -107,6 +108,14 @@
     <RootType FullName="BitBuilder_v1.add_chassis" />
     <RootType FullName="BitBuilder_v1.add_periph" />
     <RootType FullName="BitBuilder_v1.add_disp" />
+    <RootType FullName="BitBuilder_v1.upd_price" />
+    <RootType FullName="BitBuilder_v1.upd_storage" />
+    <RootType FullName="BitBuilder_v1.upd_psu" />
+    <RootType FullName="BitBuilder_v1.upd_proc" />
+    <RootType FullName="BitBuilder_v1.upd_periph" />
+    <RootType FullName="BitBuilder_v1.upd_mobo" />
+    <RootType FullName="BitBuilder_v1.upd_memory" />
+    <RootType FullName="BitBuilder_v1.upd_gpu" />
     <RootType FullName="BitBuilder_v1.upd_display" />
     <RootType FullName="BitBuilder_v1.upd_chassis" />
     <RootType FullName="BitBuilder_v1.update_prod" />

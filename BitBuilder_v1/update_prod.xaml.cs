@@ -59,32 +59,32 @@ namespace BitBuilder_v1
                 switch (ItemContent.Tag)
                 {
                     case "processor":
-                        this.ContentFrame.Navigate(typeof(add_proc));
+                        this.ContentFrame.Navigate(typeof(upd_proc));
                         break;
 
                     case "motherboard":
-                        this.ContentFrame.Navigate(typeof(add_mobo));
+                        this.ContentFrame.Navigate(typeof(upd_mobo));
                         break;
 
                     case "gpu":
-                        this.ContentFrame.Navigate(typeof(add_gpu));
+                        this.ContentFrame.Navigate(typeof(upd_gpu));
                         break;
 
                     case "storage":
-                        this.ContentFrame.Navigate(typeof(add_storage));
+                        this.ContentFrame.Navigate(typeof(upd_storage));
                         break;
 
                     case "memory":
-                        this.ContentFrame.Navigate(typeof(add_memory));
+                        this.ContentFrame.Navigate(typeof(upd_memory));
                         break;
                     case "chassis":
                         this.ContentFrame.Navigate(typeof(upd_chassis));
                         break;
                     case "psu":
-                        this.ContentFrame.Navigate(typeof(add_psu));
+                        this.ContentFrame.Navigate(typeof(upd_psu));
                         break;
                     case "peripheral":
-                        this.ContentFrame.Navigate(typeof(user_dash));
+                        this.ContentFrame.Navigate(typeof(upd_periph));
                         break;
                     case "display":
                         this.ContentFrame.Navigate(typeof(upd_display));

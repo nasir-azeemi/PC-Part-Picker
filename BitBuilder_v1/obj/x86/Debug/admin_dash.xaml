@@ -14,9 +14,10 @@
         <Button x:ConnectionId='4' x:Name="add_bttn" Content="Add Product" Height="44" Margin="57,222,0,0" VerticalAlignment="Top" Width="135"                       ></Button>
         <TextBlock x:ConnectionId='5' HorizontalAlignment="Left" Height="43" Margin="57,158,0,0" Text="Manage Products" TextWrapping="Wrap" VerticalAlignment="Top" Width="264"                                               FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Height="43" Margin="55,341,0,0" Text="Manage Orders" TextWrapping="Wrap" VerticalAlignment="Top" Width="264" FontSize="18"/>
-        <Button x:ConnectionId='6' x:Name="view_orderbtn" Content="View Order Placed" Height="44" Margin="55,395,0,0" VerticalAlignment="Top" Width="148"                            />
+        <Button x:ConnectionId='6' x:Name="view_orderbtn" Content="View Orders Placed" Height="44" Margin="55,395,0,0" VerticalAlignment="Top" Width="148"                            />
         <Button x:ConnectionId='7' x:Name="update_orderbtn" Content="Update Order" Height="44" Margin="280,395,0,0" VerticalAlignment="Top" Width="148"                              />
         <Button x:ConnectionId='8' x:Name="update_pricebtn" Content="Update Price" Height="44" Margin="482,222,0,0" VerticalAlignment="Top" Width="169" RenderTransformOrigin="0.884,0.58"                              />
+        <Button x:ConnectionId='9' x:Name="view_prod" Content="View All Products" Height="44" Margin="720,222,0,0" VerticalAlignment="Top" Width="169" RenderTransformOrigin="0.884,0.58"                        />
     </Grid>
 </Page>
 

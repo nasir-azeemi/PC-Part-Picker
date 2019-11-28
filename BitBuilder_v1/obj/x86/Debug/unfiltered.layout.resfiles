@@ -78,6 +78,14 @@ product_search.xbf
 registerform.xbf
 upd_chassis.xbf
 upd_disp.xbf
+upd_gpu.xbf
+upd_memory.xbf
+upd_mobo.xbf
+upd_periph.xbf
+upd_price.xbf
+upd_proc.xbf
+upd_psu.xbf
+upd_storage.xbf
 update_prod.xbf
 user_dash.xbf
 Properties\Default.rd.xml
