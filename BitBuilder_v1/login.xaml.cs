@@ -63,14 +63,15 @@ namespace BitBuilder_v1
 
             foreach(DataRow row in login_table.Rows)
             {
-                if (emailbox.Text == row["userId"].ToString() && passbox.ToString() == row["userpass"].ToString())
+                if (emailbox.Text == row["userid"].ToString() && passbox.Password.Equals(row["userpassword"].ToString()))
                 {
                     userid = emailbox.Text;
-                    Console.WriteLine(userid);
+                    System.Diagnostics.Debug.WriteLine(userid);
+                    this.Frame.Navigate(typeof(admin_dash));
                 }
                 else
                 {
-
+                    System.Diagnostics.Debug.WriteLine("unmatched");
                 }
 
 

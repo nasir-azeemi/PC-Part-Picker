@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>AKBAR-PC</Machine>
-    <WindowsUser>Salman</WindowsUser>
+    <Machine>HOMEDESKTOP</Machine>
+    <WindowsUser>HomeRyzen</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>edce1680-b2f5-4f50-8ecb-5bc9c02a758c</PackageIdentityName>
     <PackageIdentityPublisher>CN=Salman</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>17F0F9D16B84D4FB213C9021896E6B425BC923F561C5F73A86E1BE0CD720A494</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>edce1680-b2f5-4f50-8ecb-5bc9c02a758c_1.0.0.0_x86__y74t9p0v97wc8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>edce1680-b2f5-4f50-8ecb-5bc9c02a758c_y74t9p0v97wc8!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-29T19:10:36.931</Modified>
+      <Modified>2019-11-29T20:02:06.179</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\BitBuilder_v1.exe">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\BitBuilder_v1.exe">
       <PackagePath>entrypoint\BitBuilder_v1.exe</PackagePath>
-      <Modified>2019-11-29T19:10:36.273</Modified>
+      <Modified>2019-11-29T20:02:05.691</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,417 +46,417 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T13:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\BadgeLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
-      <Modified>2019-11-18T20:35:59.122</Modified>
+      <Modified>2019-11-24T16:28:20.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\BadgeLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\BadgeLogo.scale-125.png">
       <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
-      <Modified>2019-11-18T20:35:59.126</Modified>
+      <Modified>2019-11-24T16:28:20.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\BadgeLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\BadgeLogo.scale-150.png">
       <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
-      <Modified>2019-11-18T20:35:59.131</Modified>
+      <Modified>2019-11-24T16:28:20.140</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\BadgeLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\BadgeLogo.scale-200.png">
       <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
-      <Modified>2019-11-18T20:35:59.135</Modified>
+      <Modified>2019-11-24T16:28:20.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\BadgeLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\BadgeLogo.scale-400.png">
       <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
-      <Modified>2019-11-18T20:35:59.140</Modified>
+      <Modified>2019-11-24T16:28:20.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
-      <Modified>2019-11-18T20:35:59.145</Modified>
+      <Modified>2019-11-24T16:28:20.142</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
-      <Modified>2019-11-18T20:35:59.149</Modified>
+      <Modified>2019-11-24T16:28:20.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
-      <Modified>2019-11-18T20:35:59.155</Modified>
+      <Modified>2019-11-24T16:28:20.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
-      <Modified>2019-11-18T20:35:59.160</Modified>
+      <Modified>2019-11-24T16:28:20.144</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
-      <Modified>2019-11-18T20:35:59.164</Modified>
+      <Modified>2019-11-24T16:28:20.145</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-11-18T20:35:59.168</Modified>
+      <Modified>2019-11-16T17:07:45.708</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
-      <Modified>2019-11-18T20:35:59.173</Modified>
+      <Modified>2019-11-24T16:28:20.146</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
-      <Modified>2019-11-18T20:35:59.178</Modified>
+      <Modified>2019-11-24T16:28:20.146</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
-      <Modified>2019-11-18T20:35:59.183</Modified>
+      <Modified>2019-11-24T16:28:20.147</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
-      <Modified>2019-11-18T20:35:59.188</Modified>
+      <Modified>2019-11-24T16:28:20.148</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
-      <Modified>2019-11-18T20:35:59.196</Modified>
+      <Modified>2019-11-24T16:28:20.148</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.201</Modified>
+      <Modified>2019-11-24T16:28:20.149</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.206</Modified>
+      <Modified>2019-11-24T16:28:20.150</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.210</Modified>
+      <Modified>2019-11-24T16:28:20.150</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.215</Modified>
+      <Modified>2019-11-24T16:28:20.151</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.219</Modified>
+      <Modified>2019-11-24T16:28:20.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.223</Modified>
+      <Modified>2019-11-24T16:28:20.153</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.227</Modified>
+      <Modified>2019-11-24T16:28:20.153</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.231</Modified>
+      <Modified>2019-11-24T16:28:20.154</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.235</Modified>
+      <Modified>2019-11-24T16:28:20.155</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.240</Modified>
+      <Modified>2019-11-24T16:28:20.156</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.247</Modified>
+      <Modified>2019-11-24T16:28:20.156</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.251</Modified>
+      <Modified>2019-11-24T16:28:20.157</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.255</Modified>
+      <Modified>2019-11-24T16:28:20.158</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.258</Modified>
+      <Modified>2019-11-24T16:28:20.158</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.262</Modified>
+      <Modified>2019-11-24T16:28:20.159</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.266</Modified>
+      <Modified>2019-11-24T16:28:20.159</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.270</Modified>
+      <Modified>2019-11-24T16:28:20.160</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.274</Modified>
+      <Modified>2019-11-24T16:28:20.161</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.279</Modified>
+      <Modified>2019-11-24T16:28:20.161</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.283</Modified>
+      <Modified>2019-11-24T16:28:20.162</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.286</Modified>
+      <Modified>2019-11-24T16:28:20.162</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.290</Modified>
+      <Modified>2019-11-24T16:28:20.163</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.293</Modified>
+      <Modified>2019-11-24T16:28:20.164</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.297</Modified>
+      <Modified>2019-11-24T16:28:20.165</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.300</Modified>
+      <Modified>2019-11-24T16:28:20.166</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.305</Modified>
+      <Modified>2019-11-24T16:28:20.166</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.311</Modified>
+      <Modified>2019-11-24T16:28:20.167</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.316</Modified>
+      <Modified>2019-11-24T16:28:20.168</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.321</Modified>
+      <Modified>2019-11-24T16:28:20.169</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.324</Modified>
+      <Modified>2019-11-24T16:28:20.170</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\StoreLogo.backup.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\StoreLogo.backup.png">
       <PackagePath>Assets\StoreLogo.backup.png</PackagePath>
-      <Modified>2019-11-18T20:35:59.328</Modified>
+      <Modified>2019-11-24T16:28:20.170</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.331</Modified>
+      <Modified>2019-11-24T16:28:20.171</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.335</Modified>
+      <Modified>2019-11-24T16:28:20.172</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.340</Modified>
+      <Modified>2019-11-24T16:28:20.172</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.345</Modified>
+      <Modified>2019-11-24T16:28:20.173</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.350</Modified>
+      <Modified>2019-11-24T16:28:20.174</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.354</Modified>
+      <Modified>2019-11-24T16:28:20.174</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.358</Modified>
+      <Modified>2019-11-24T16:28:20.175</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.361</Modified>
+      <Modified>2019-11-24T16:28:20.176</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.364</Modified>
+      <Modified>2019-11-24T16:28:20.176</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T20:35:59.372</Modified>
+      <Modified>2019-11-24T16:28:20.177</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-11-13T18:16:23.118</Modified>
+      <Modified>2019-11-16T17:07:45.717</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\BitBuilder_v1.xr.xml">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\BitBuilder_v1.xr.xml">
       <PackagePath>BitBuilder_v1.xr.xml</PackagePath>
-      <Modified>2019-11-28T19:57:22.156</Modified>
+      <Modified>2019-11-29T19:22:42.933</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.855</Modified>
+      <Modified>2019-11-29T20:02:05.427</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\accdetails.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\accdetails.xbf">
       <PackagePath>accdetails.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.855</Modified>
+      <Modified>2019-11-29T20:02:05.428</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\admin_dash.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\admin_dash.xbf">
       <PackagePath>admin_dash.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.856</Modified>
+      <Modified>2019-11-29T20:02:05.428</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_product.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_product.xbf">
       <PackagePath>add_product.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.856</Modified>
+      <Modified>2019-11-29T20:02:05.428</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_proc.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_proc.xbf">
       <PackagePath>add_proc.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.856</Modified>
+      <Modified>2019-11-29T20:02:05.429</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_mobo.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_mobo.xbf">
       <PackagePath>add_mobo.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.857</Modified>
+      <Modified>2019-11-29T20:02:05.429</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_gpu.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_gpu.xbf">
       <PackagePath>add_gpu.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.857</Modified>
+      <Modified>2019-11-29T20:02:05.429</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_storage.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_storage.xbf">
       <PackagePath>add_storage.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.857</Modified>
+      <Modified>2019-11-29T20:02:05.429</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_memory.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_memory.xbf">
       <PackagePath>add_memory.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.857</Modified>
+      <Modified>2019-11-29T20:02:05.430</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_psu.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_psu.xbf">
       <PackagePath>add_psu.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.858</Modified>
+      <Modified>2019-11-29T20:02:05.430</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_chassis.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_chassis.xbf">
       <PackagePath>add_chassis.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.858</Modified>
+      <Modified>2019-11-29T20:02:05.430</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_periph.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_periph.xbf">
       <PackagePath>add_periph.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.858</Modified>
+      <Modified>2019-11-29T20:02:05.431</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_disp.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_disp.xbf">
       <PackagePath>add_disp.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.858</Modified>
+      <Modified>2019-11-29T20:02:05.431</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_price.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_price.xbf">
       <PackagePath>upd_price.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.859</Modified>
+      <Modified>2019-11-29T20:02:05.431</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_storage.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_storage.xbf">
       <PackagePath>upd_storage.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.859</Modified>
+      <Modified>2019-11-29T20:02:05.432</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_psu.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_psu.xbf">
       <PackagePath>upd_psu.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.859</Modified>
+      <Modified>2019-11-29T20:02:05.432</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_proc.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_proc.xbf">
       <PackagePath>upd_proc.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.860</Modified>
+      <Modified>2019-11-29T20:02:05.432</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_periph.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_periph.xbf">
       <PackagePath>upd_periph.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.860</Modified>
+      <Modified>2019-11-29T20:02:05.432</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_mobo.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_mobo.xbf">
       <PackagePath>upd_mobo.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.860</Modified>
+      <Modified>2019-11-29T20:02:05.433</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_memory.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_memory.xbf">
       <PackagePath>upd_memory.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.861</Modified>
+      <Modified>2019-11-29T20:02:05.433</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_gpu.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_gpu.xbf">
       <PackagePath>upd_gpu.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.861</Modified>
+      <Modified>2019-11-29T20:02:05.433</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_disp.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_disp.xbf">
       <PackagePath>upd_disp.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.861</Modified>
+      <Modified>2019-11-29T20:02:05.433</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_chassis.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_chassis.xbf">
       <PackagePath>upd_chassis.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.861</Modified>
+      <Modified>2019-11-29T20:02:05.434</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\update_prod.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\update_prod.xbf">
       <PackagePath>update_prod.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.862</Modified>
+      <Modified>2019-11-29T20:02:05.434</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\persdetail.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\persdetail.xbf">
       <PackagePath>persdetail.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.862</Modified>
+      <Modified>2019-11-29T20:02:05.434</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\orderhistory.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\orderhistory.xbf">
       <PackagePath>orderhistory.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.863</Modified>
+      <Modified>2019-11-29T20:02:05.435</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\cart.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\cart.xbf">
       <PackagePath>cart.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.863</Modified>
+      <Modified>2019-11-29T20:02:05.435</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\registerform.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\registerform.xbf">
       <PackagePath>registerform.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.863</Modified>
+      <Modified>2019-11-29T20:02:05.435</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\user_dash.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\user_dash.xbf">
       <PackagePath>user_dash.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.864</Modified>
+      <Modified>2019-11-29T20:02:05.435</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\product_search.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\product_search.xbf">
       <PackagePath>product_search.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.864</Modified>
+      <Modified>2019-11-29T20:02:05.436</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\login.xbf">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\login.xbf">
       <PackagePath>login.xbf</PackagePath>
-      <Modified>2019-11-29T19:09:00.864</Modified>
+      <Modified>2019-11-29T20:02:05.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T12:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-11-29T19:09:01.873</Modified>
+      <Modified>2019-11-29T19:39:41.922</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\Core\BitBuilder_v1.exe">
+    <AppxPackagedFile Include="C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\Core\BitBuilder_v1.exe">
       <PackagePath>BitBuilder_v1.exe</PackagePath>
-      <Modified>2019-11-29T19:10:36.918</Modified>
+      <Modified>2019-11-29T20:02:06.173</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

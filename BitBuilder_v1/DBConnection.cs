@@ -10,7 +10,7 @@ namespace BitBuilder_v1
 {
     class DBconnection
     {
-        public SqlConnection conn = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=BitBuilder_v2;Integrated Security=True");
+        public SqlConnection conn = new SqlConnection(@"Data Source=HOMEDESKTOP\RYZENSQL;Initial Catalog=BitBuilder_v3;Integrated Security=True");
         public SqlCommand cmd = new SqlCommand();
 
         public DBconnection()
