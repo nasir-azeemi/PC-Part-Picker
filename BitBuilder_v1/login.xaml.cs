@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -26,14 +27,14 @@ namespace BitBuilder_v1
     {
         bool newuserflag = false;
         bool adminflag = false;
-        AppUsers login_new = new AppUsers();
+        string userid;
+
+        //List<AppUsers> login_lst = new List<AppUsers>();
         public MainPage()
         {
             this.InitializeComponent();
-            List<users> userlst = new List<users>();
-            userlst.Add(new users("admin", "1234"));
             
-            login_new = ((App)Application.Current).UserLogin((App.Current as App).ConnectionString);
+            //login_lst = ((App)Application.Current).UserLogin((App.Current as App).ConnectionString);
 
         }
 
@@ -56,13 +57,25 @@ namespace BitBuilder_v1
 
         private  void signbttn_Click(object sender, RoutedEventArgs e)
         {
-            // Navigate to MyNewPage.xaml
+            DBconnection c1 = new DBconnection();
+            DataTable login_table = c1.Select("select * from AppUser");
             
-            /*if (emailbox.Text in login_new.userid)
+
+            foreach(DataRow row in login_table.Rows)
             {
+                if (emailbox.Text == row["userId"].ToString() && passbox.ToString() == row["userpass"].ToString())
+                {
+                    userid = emailbox.Text;
+                    Console.WriteLine(userid);
+                }
+                else
+                {
+
+                }
+
 
             }
-            */
+
 
 
 
@@ -86,12 +99,6 @@ namespace BitBuilder_v1
                 this.Frame.Navigate(typeof(admin_dash));
             }
 
-
-            else if (login_new.isAdmin)
-            {
-                this.Frame.Navigate(typeof(admin_dash));
-            }
-            
             else
             {
                 this.Frame.Navigate(typeof(user_dash));

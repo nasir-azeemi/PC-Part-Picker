@@ -35,7 +35,7 @@ namespace BitBuilder_v1
             this.Suspending += OnSuspending;
         }
 
-
+        /*
         private string connectionString =
         @"Data Source=.\SQLEXPRESS;Initial Catalog=BitBuilder;Integrated Security=SSPI";
 
@@ -63,14 +63,14 @@ namespace BitBuilder_v1
 
         }
 
-
-        public AppUsers UserLogin(string connectionString)
+        
+        public List<AppUsers> UserLogin(string connectionString)
         {
             const string check_user = "select userid, userpassword from AppUser;";
 
             try
             {
-                var xAppUsers = new AppUsers();
+                List<AppUsers> userlst = new List<AppUsers>();
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     conn.Open();
@@ -83,19 +83,19 @@ namespace BitBuilder_v1
                             {
                                 while (reader.Read())
                                 {
-                                    
+                                    var xAppUsers = new AppUsers();
                                     xAppUsers.AppUserID = reader.GetInt32(0);
                                     xAppUsers.userid = reader.GetString(1);
                                     xAppUsers.userpassword = reader.GetString(2);
                                     xAppUsers.isAdmin = reader.GetBoolean(3);
                                     xAppUsers.CustomerID = reader.GetInt16(4);
-                                    
+                                    userlst.Add(xAppUsers);
                                 }
                             }
                         }
                     }
                 }
-                return xAppUsers;
+                return userlst;
             }
             catch (Exception eSql)
             {
@@ -103,7 +103,7 @@ namespace BitBuilder_v1
             }
             return null;
         }
-
+        */
 
 
 
