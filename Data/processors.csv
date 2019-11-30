@@ -1,11 +1,11 @@
-Processor,Brand,Vendor,Price,Socket,Clock Speed
-AMD Ryzen 7 2700X,AMD,Abid Computers,23850,AM4,3.4
-Intel Core i7-6700K,AMD,HU Technologies,45600,AM4,4
-AMD Ryzen 5 1600,AMD,Kazi & Qazi Brothers,14850,AM4,3.2
-Intel Core i7-8700K,Intel,Abid Computers,53100,LGA 1151,3.7
-AMD Ryzen 5 3600,AMD,Bhatti LiquiTech,29100,AM4,3.6
-AMD Ryzen 7 1800X,AMD,Kazi & Qazi Brothers,44250,AM4,3.6
-Intel Core i9-9900K,Intel,DotShaheen Tech,70500,LGA 1151,3.6
-Intel Core i5-9400,Intel,Abid Computers,28350,LGA 1151,2.9
-Intel Core i5-6500,Intel,HU Technologies,28500,LGA 1151,3.2
-AMD Ryzen 9 3950X,AMD,Agha Tech Point,112500,AM4,3.5
+Processor,Brand,Vendor,Price,Chip Manufacturer,VRAM
+Sapphire PULSE RX 5700XT,AMD,High Khalid Limited,61800,AM4,3.4
+Gigabyte WINDFORCE OC GTX 1660Ti,NVIDIA,Altoo Tech Point,51000,AM4,4
+Gigabyte GAMING OC RX 5700,AMD,High Khalid Limited,48000,AM4,3.2
+Asus ROG Strix Gaming OC RTX 2080Ti,NVIDIA,Altoo Tech Point,180000,LGA 1151,3.7
+Sapphire PULSE RX 580,AMD,High Khalid Limited,25500,AM4,3.6
+Gigabyte GAMING 8G RX 590,AMD,High Khalid Limited,38000,AM4,3.6
+Asus STRIX GAMING OC RTX 2070,NVIDIA,Altoo Tech Point,70500,LGA 1151,3.6
+MSI GAMING X TRIO RTX 2080 SUPER,NVIDIA,Altoo Tech Point,115500,LGA 1151,2.9
+Gigabyte GAMING OC WHITE RTX 2060,NVIDIA,Altoo Tech Point,68400,LGA 1151,3.2
+Sapphire NITRO+ RX 5700XT,AMD,High Khalid Limited,69000,AM4,3.5
