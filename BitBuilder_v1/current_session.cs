@@ -37,5 +37,17 @@ namespace BitBuilder_v1
 
             }
         }
+
+
+        public static void log_out_session()
+        {
+            customer_id = "";
+            orderid = "" ;
+            customer_name = "" ;
+            customer_addr = "" ;
+            customer_cityid = "" ;
+            contact = "" ;
+        }
+
     }
 }

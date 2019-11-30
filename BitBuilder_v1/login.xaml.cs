@@ -28,17 +28,20 @@ namespace BitBuilder_v1
         bool newuserflag = false;
         bool adminflag = false;
         string userid;
+        DBconnection c1;
 
         //List<AppUsers> login_lst = new List<AppUsers>();
         public MainPage()
         {
             this.InitializeComponent();
-            
+            c1 = new DBconnection();
+
             //login_lst = ((App)Application.Current).UserLogin((App.Current as App).ConnectionString);
 
         }
 
-        
+         
+
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -57,12 +60,12 @@ namespace BitBuilder_v1
 
         private  void signbttn_Click(object sender, RoutedEventArgs e)
         {
-            DBconnection c1 = new DBconnection();
             DataTable login_table = c1.Select("select * from AppUser");
             
 
             foreach(DataRow row in login_table.Rows)
             {
+                
                 if (emailbox.Text == row["userid"].ToString() && passbox.Password.Equals(row["userpassword"].ToString()))
                 {
                     userid = emailbox.Text;
