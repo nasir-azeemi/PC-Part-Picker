@@ -155,6 +155,7 @@
     <Compile Include="add_disp.xaml.cs">
       <DependentUpon>add_disp.xaml</DependentUpon>
     </Compile>
+    <Compile Include="current_session.cs" />
     <Compile Include="DBConnection.cs" />
     <Compile Include="upd_price.xaml.cs">
       <DependentUpon>upd_price.xaml</DependentUpon>

@@ -25,6 +25,7 @@ namespace BitBuilder_v1
         public user_dash()
         {
             this.InitializeComponent();
+            welcome_txt.Text = "Welcome " + current_session.customer_name + "!";
         }
 
         private void newuser_check_Checked(object sender, RoutedEventArgs e)

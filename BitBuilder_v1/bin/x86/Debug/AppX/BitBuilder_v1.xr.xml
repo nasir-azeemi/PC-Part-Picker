@@ -37,6 +37,7 @@
       <RootProperty Name="IsEnabled" />
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="InputScope" />
       <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
@@ -161,7 +162,6 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontSize" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="Toggled" />
     </RootType>
     <RootType FullName="BitBuilder_v1.MainPage" />

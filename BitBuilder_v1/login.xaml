@@ -9,13 +9,13 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBox x:Name="emailbox" HorizontalAlignment="Center" Height="66" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="547" Margin="0,141,0,0" TextChanged="TextBox_TextChanged" FontSize="18" AutomationProperties.IsRequiredForForm="True"/>
+        <TextBox x:Name="emailbox" HorizontalAlignment="Center" Height="66" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="547" Margin="0,141,0,0" TextChanged="TextBox_TextChanged" FontSize="18" AutomationProperties.IsRequiredForForm="True" InputScope="EmailSmtpAddress"/>
         <TextBlock HorizontalAlignment="Left" Height="51" Margin="57,150,0,0" Text="Email ID" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" SelectionChanged="TextBlock_SelectionChanged" FontSize="22"/>
         <TextBlock HorizontalAlignment="Left" Height="51" Margin="57,259,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" FontSize="22"/>
-        <Button x:Name="signbttn" Content="Sign in / Register" Height="48" Margin="743,360,0,0" VerticalAlignment="Top" Width="171" FontSize="18" Click="signbttn_Click"/>
+        <Button x:Name="signbttn" Content="Sign in / Register" Height="48" Margin="724,359,0,0" VerticalAlignment="Top" Width="171" FontSize="18" Click="signbttn_Click"/>
         <PasswordBox x:Name="passbox" HorizontalAlignment="Center" Margin="0,245,0,0" VerticalAlignment="Top" Height="66" Width="547" FontSize="18" AutomationProperties.IsRequiredForForm="True"/>
         <ToggleSwitch x:Name="newuser_switch" Header="Register a new user" Margin="367,360,0,0" VerticalAlignment="Top" Toggled="ToggleSwitch_Toggled" FontSize="18"/>
-        <ToggleSwitch x:Name="admin_check" Header="Admin User" Margin="0,360,0,0" VerticalAlignment="Top" Toggled="adminToggleSwitch_Toggled" FontSize="18" HorizontalAlignment="Center"/>
+        <ToggleSwitch x:Name="admin_check" Header="Admin User" Margin="547,360,0,0" VerticalAlignment="Top" Toggled="adminToggleSwitch_Toggled" FontSize="18"/>
 
     </Grid>
 </Page>

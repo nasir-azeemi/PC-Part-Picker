@@ -25,6 +25,8 @@ namespace BitBuilder_v1
         public admin_dash()
         {
             this.InitializeComponent();
+            welcome_txt.Text = "Welcome " + current_session.customer_name + "!";
+
         }
 
         private void add_bttn_Click(object sender, RoutedEventArgs e)

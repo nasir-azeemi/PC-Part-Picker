@@ -67,7 +67,20 @@ namespace BitBuilder_v1
                 {
                     userid = emailbox.Text;
                     System.Diagnostics.Debug.WriteLine(userid);
-                    this.Frame.Navigate(typeof(admin_dash));
+
+
+                    current_session.customer_id = row["CustomerID"].ToString();
+                    current_session.set_customer_details();
+
+
+                    if (row["isAdmin"].ToString() == "True")
+                    {
+                        this.Frame.Navigate(typeof(admin_dash));
+                    } 
+                    else
+                    {
+                        this.Frame.Navigate(typeof(user_dash));
+                    }
                 }
                 else
                 {
@@ -79,7 +92,7 @@ namespace BitBuilder_v1
 
 
 
-
+            /*
             if (newuserflag && adminflag)
             {
 
@@ -104,6 +117,7 @@ namespace BitBuilder_v1
             {
                 this.Frame.Navigate(typeof(user_dash));
             }
+            */
         }
 
         private void newuser_check_Checked(object sender, RoutedEventArgs e)

@@ -9,13 +9,13 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBox x:ConnectionId='2' x:Name="emailbox" HorizontalAlignment="Center" Height="66" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="547" Margin="0,141,0,0"                                   FontSize="18" AutomationProperties.IsRequiredForForm="True"/>
+        <TextBox x:ConnectionId='2' x:Name="emailbox" HorizontalAlignment="Center" Height="66" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="547" Margin="0,141,0,0"                                   FontSize="18" AutomationProperties.IsRequiredForForm="True" InputScope="EmailSmtpAddress"/>
         <TextBlock x:ConnectionId='3' HorizontalAlignment="Left" Height="51" Margin="57,150,0,0" Text="Email ID" TextWrapping="Wrap" VerticalAlignment="Top" Width="267"                                               FontSize="22"/>
         <TextBlock HorizontalAlignment="Left" Height="51" Margin="57,259,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" FontSize="22"/>
-        <Button x:ConnectionId='4' x:Name="signbttn" Content="Sign in / Register" Height="48" Margin="743,360,0,0" VerticalAlignment="Top" Width="171" FontSize="18"                       />
+        <Button x:ConnectionId='4' x:Name="signbttn" Content="Sign in / Register" Height="48" Margin="724,359,0,0" VerticalAlignment="Top" Width="171" FontSize="18"                       />
         <PasswordBox x:ConnectionId='5' x:Name="passbox" HorizontalAlignment="Center" Margin="0,245,0,0" VerticalAlignment="Top" Height="66" Width="547" FontSize="18" AutomationProperties.IsRequiredForForm="True"/>
         <ToggleSwitch x:ConnectionId='6' x:Name="newuser_switch" Header="Register a new user" Margin="367,360,0,0" VerticalAlignment="Top"                                FontSize="18"/>
-        <ToggleSwitch x:ConnectionId='7' x:Name="admin_check" Header="Admin User" Margin="0,360,0,0" VerticalAlignment="Top"                                     FontSize="18" HorizontalAlignment="Center"/>
+        <ToggleSwitch x:ConnectionId='7' x:Name="admin_check" Header="Admin User" Margin="547,360,0,0" VerticalAlignment="Top"                                     FontSize="18"/>
 
     </Grid>
 </Page>
