@@ -107,7 +107,7 @@ namespace BitBuilder_v1
 
         private void view_prod_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(view_all_prod));
         }
     }
 }

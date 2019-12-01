@@ -62,6 +62,9 @@ namespace BitBuilder_v1
         {
             DataTable login_table = c1.Select("select * from AppUser");
             
+            if (newuserflag)
+            { this.Frame.Navigate(typeof(registerform)); return; }
+
 
             foreach(DataRow row in login_table.Rows)
             {

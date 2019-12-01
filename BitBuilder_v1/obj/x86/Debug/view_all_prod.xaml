@@ -1,0 +1,18 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BitBuilder_v1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    x:Class="BitBuilder_v1.view_all_prod"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="78,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="426" FontSize="28" FontFamily="Calibri Light" Foreground="#FF2097B2" Text="View All Products"/>
+        <Button x:ConnectionId='2' x:Name="returnbtn" Content="Return to Dashboard" Height="47" Margin="995,645,0,0" VerticalAlignment="Top" Width="204" FontSize="18"                        />
+        <Custom:DataGrid x:ConnectionId='3' x:Name="prod_datagrid" HorizontalAlignment="Center" Height="438" VerticalAlignment="Top" Width="1121" Margin="0,170,0,0" AutoGenerateColumns="False"/>
+    </Grid>
+</Page>
+

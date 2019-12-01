@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -22,9 +23,13 @@ namespace BitBuilder_v1
     /// </summary>
     public sealed partial class registerform : Page
     {
+        DBconnection c2;
+        DataTable d2;
         public registerform()
         {
             this.InitializeComponent();
+            c2 = new DBconnection();
+            d2 = c2.Select("select * from City");
         }
 
         private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
@@ -36,6 +41,14 @@ namespace BitBuilder_v1
         {
             this.Frame.Navigate(typeof(MainPage));
 
+        }
+
+        private void citycombobox_Loaded(object sender, RoutedEventArgs e)
+        {
+            for (int i = 0; i < d2.Rows.Count; i++)
+            {
+                citycombobox.Items.Add(d2.Rows[i]["CityName"]);
+            }
         }
     }
 }

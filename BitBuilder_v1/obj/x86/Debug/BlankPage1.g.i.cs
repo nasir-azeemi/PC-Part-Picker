@@ -10,14 +10,10 @@
 
 namespace BitBuilder_v1
 {
-    partial class upd_price : global::Windows.UI.Xaml.Controls.Page
+    partial class view_all_prod : global::Windows.UI.Xaml.Controls.Page
     {
 
 
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", " 10.0.18362.1")]
-        private global::Windows.UI.Xaml.Controls.TextBlock welcome_txt;
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", " 10.0.18362.1")]
-        private global::Windows.UI.Xaml.Controls.TextBox namebox;
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", " 10.0.18362.1")]
         private bool _contentLoaded;
 
@@ -39,12 +35,8 @@ namespace BitBuilder_v1
 
         partial void UnloadObject(global::Windows.UI.Xaml.DependencyObject unloadableObject);
 
-        private global::Windows.UI.Xaml.Controls.Button search_bttn;
-        private global::Windows.UI.Xaml.Controls.TextBox ID_box;
-        private global::Windows.UI.Xaml.Controls.TextBox curr_priceBox;
-        private global::Windows.UI.Xaml.Controls.TextBox new_priceBox;
-        private global::Windows.UI.Xaml.Controls.Button upd_bttn;
-        private global::Windows.UI.Xaml.Controls.Button cancel_bttn;
+        private global::Windows.UI.Xaml.Controls.Button returnbtn;
+        private global::Windows.UI.Xaml.Controls.ListView ProductList;
     }
 }
 
