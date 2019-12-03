@@ -17,6 +17,8 @@ namespace BitBuilder_v1
         private current_session() 
         { }
 
+        public static string emailid;
+        public static string current_pass;
         public static string customer_id;
         public static string orderid;
         public static string customer_name;
@@ -74,5 +76,18 @@ namespace BitBuilder_v1
 
             grid.ItemsSource = collection;
         }
+    }
+
+
+    class current_register
+    {
+        private current_register() { }
+
+
+        public static string currentpass;
+        public static string current_email;
+
+
+
     }
 }

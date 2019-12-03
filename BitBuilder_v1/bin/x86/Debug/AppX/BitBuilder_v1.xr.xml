@@ -98,7 +98,6 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
-      <RootProperty Name="RenderTransformOrigin" />
       <RootEvent Name="Loaded" />
     </RootType>
     <RootType FullName="BitBuilder_v1.add_proc" />
@@ -138,22 +137,11 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="BorderBrush" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="BitBuilder_v1.orderhistory" />
     <RootType FullName="BitBuilder_v1.cart" />
     <RootType FullName="BitBuilder_v1.registerform" />
     <RootType FullName="BitBuilder_v1.user_dash" />
-    <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
-      <RootProperty Name="EndPoint" />
-      <RootProperty Name="StartPoint" />
-      <RootProperty Name="GradientStops" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.GradientStop">
-      <RootProperty Name="Color" />
-      <RootProperty Name="Offset" />
-    </RootType>
     <RootType FullName="BitBuilder_v1.product_search" />
     <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
       <RootMethod Name="GetIsRequiredForForm" />

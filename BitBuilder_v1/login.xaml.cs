@@ -63,7 +63,12 @@ namespace BitBuilder_v1
             DataTable login_table = c1.Select("select * from AppUser");
             
             if (newuserflag)
-            { this.Frame.Navigate(typeof(registerform)); return; }
+            {
+                current_register.currentpass = passbox.Password;
+                current_register.current_email = emailbox.Text;
+                this.Frame.Navigate(typeof(registerform));
+                return; 
+            }
 
 
             foreach(DataRow row in login_table.Rows)
@@ -75,6 +80,8 @@ namespace BitBuilder_v1
                     System.Diagnostics.Debug.WriteLine(userid);
 
 
+                    current_session.emailid = emailbox.Text;
+                    current_session.current_pass = passbox.Password;
                     current_session.customer_id = row["CustomerID"].ToString();
                     current_session.set_customer_details();
 
@@ -82,10 +89,12 @@ namespace BitBuilder_v1
                     if (row["isAdmin"].ToString() == "True")
                     {
                         this.Frame.Navigate(typeof(admin_dash));
+                        return;
                     } 
                     else
                     {
                         this.Frame.Navigate(typeof(user_dash));
+                        return;
                     }
                 }
                 else

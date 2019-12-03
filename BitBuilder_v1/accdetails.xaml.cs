@@ -22,19 +22,49 @@ namespace BitBuilder_v1
     /// </summary>
     public sealed partial class accdetails : Page
     {
+        bool update_pass;
+        DBconnection c1;
+
         public accdetails()
         {
             this.InitializeComponent();
+            c1 = new DBconnection();
+            update_pass = false;
+            emailbox.Text = current_session.emailid;
         }
 
         private void updatebtn_Click(object sender, RoutedEventArgs e)
         {
+            void update_email()
+            {
+                if (!(emailbox.Text.Equals(current_session.emailid)))
+                {
+                    c1.Inserts("update AppUser set userid = '" + emailbox.Text + "' where CustomerID = " + current_session.customer_id.ToString());
+                }
+            }
+
+            if (newpass_box.Text != "")
+            {
+                if (oldpass_box.Text == current_session.current_pass)
+                {
+                    c1.Inserts("update AppUser set userpassword = '" + newpass_box.Text + "' where CustomerID = " + current_session.customer_id.ToString());
+                }
+
+            }
+            else
+            {
+                update_email();
+            }
+
+
             this.Frame.Navigate(typeof(user_dash));
+            return;
         }
 
         private void cancelbtn_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(user_dash));
+            return;
         }
     }
 }

@@ -25,11 +25,14 @@ namespace BitBuilder_v1
     {
         DBconnection c2;
         DataTable d2;
+        bool checks_passed;
         public registerform()
         {
             this.InitializeComponent();
             c2 = new DBconnection();
             d2 = c2.Select("select * from City");
+            checks_passed = true;
+            emailbox.Text = current_register.current_email;
         }
 
         private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
@@ -49,6 +52,21 @@ namespace BitBuilder_v1
             {
                 citycombobox.Items.Add(d2.Rows[i]["CityName"]);
             }
+        }
+
+        private void registerbtn_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine(citycombobox.SelectedItem.ToString());
+            c2.Inserts(
+                "insert into Customer (CityID, CustomerName, CustomerAddress, Contact)"
+                + " values((select CityID from City where CityName like '"+ citycombobox.SelectedItem.ToString() + "'), '"+ namebox.Text +"', '"+ addressbox.Text +"', '" + contactbox.Text + "')"
+                );
+
+            c2.Inserts(
+                "insert into AppUser (userid, userpassword, isAdmin, CustomerID) values ( '"+ emailbox.Text +"', '"+current_register.currentpass+"', 0, (select max(CustomerID) from Customer) )"
+                );
+            this.Frame.Navigate(typeof(MainPage));
+            return;
         }
     }
 }
