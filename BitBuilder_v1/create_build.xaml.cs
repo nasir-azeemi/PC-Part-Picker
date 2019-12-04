@@ -81,7 +81,7 @@ namespace BitBuilder_v1
 
         private void upd_price()
         {
-            curr_price += current_build.proc_price + current_build.mobo_price + current_build.mem_price +
+            curr_price = current_build.proc_price + current_build.mobo_price + current_build.mem_price +
                 current_build.gpu_price + current_build.chassis_price + current_build.psu_price + current_build.storage_price;
 
             cost_valuebox.Text = curr_price.ToString();
@@ -136,6 +136,7 @@ namespace BitBuilder_v1
                     break;
                 }
             }
+            upd_price();
             chassis_box_reloaded();
 
         }
@@ -174,6 +175,7 @@ namespace BitBuilder_v1
                     break;
                 }
             }
+            upd_price();
         }
 
         private void psu_box_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -211,6 +213,7 @@ namespace BitBuilder_v1
                     break;
                 }
             }
+            upd_price();
             mobo_box_reloaded();
 
 
