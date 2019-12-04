@@ -51,33 +51,46 @@ namespace BitBuilder_v1
         private void p_search_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(product_search));
+            return;
 
         }
 
         private void view_cartbtn_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(cart));
+            return;
+
         }
 
         private void order_historybtn_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(orderhistory));
+            return;
+
         }
 
         private void acc_settingbtn_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(accdetails));
+            return;
         }
 
         private void upd_detailbtn_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(persdetail));
+            return;
 
         }
 
         private void create_bldbtn_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(create_build));
+            return;
+        }
+
+        private void prebuiltbtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(view_build));
             return;
         }
     }

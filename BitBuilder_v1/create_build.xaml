@@ -29,5 +29,7 @@
         <TextBlock x:Name="cost_textbox" HorizontalAlignment="Left" Height="47" Margin="753,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Foreground="#FF2097B2" FontSize="28" FontFamily="Calibri Light" Text="Total Cost:"/>
         <TextBlock x:Name="cost_valuebox" HorizontalAlignment="Left" Height="47" Margin="889,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Foreground="#FF2097B2" FontSize="28" FontFamily="Calibri Light" Text=""/>
         <ComboBox x:Name="mobo_box" Height="42" Margin="402,209,0,0" Width="238" Loaded="mobo_box_Loaded_1" SelectionChanged="mobo_box_SelectionChanged"/>
+        <TextBlock x:Name="Descrip_txtblock" HorizontalAlignment="Left" Height="47" Margin="723,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="314" Foreground="#FF2097B2" FontSize="28" FontFamily="Calibri Light"><Run Text="Enter your description:"/><LineBreak/><Run/></TextBlock>
+        <TextBox x:Name="descrip_txtbox" HorizontalAlignment="Left" Height="85" Margin="718,323,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="406"/>
     </Grid>
 </Page>

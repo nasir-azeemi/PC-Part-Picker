@@ -25,11 +25,17 @@ namespace BitBuilder_v1
         public cart()
         {
             this.InitializeComponent();
+            cart_list.ItemsSource = Cart.cart_collection;
         }
 
         private void returnbtn_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(user_dash));
+        }
+
+        private void InventoryList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

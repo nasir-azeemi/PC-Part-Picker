@@ -26,6 +26,8 @@ namespace BitBuilder_v1
         DBconnection c1;
         DataTable d1, d2;
 
+        
+
         public product_search()
         {
             this.InitializeComponent();
@@ -46,9 +48,15 @@ namespace BitBuilder_v1
             }
         }
 
+        private void cart_add_bttn_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            string x = buildid_box.Text;
+            Cart.add_to_cart(x);
+        }
+
         private void search_btn_Click(object sender, RoutedEventArgs e)
         {
-            if(categ_box.SelectedItem.ToString() != "")
+            if(categ_box.SelectedIndex != -1)
             {
                 d1 = c1.Select("select ProductID, TypeName as 'Product Type', BrandName, ProductName as 'Product Name', isAvailable as 'Available', UnitPrice as 'Price'"
                     + " from Products, ProductType, Brand "
@@ -56,6 +64,17 @@ namespace BitBuilder_v1
 
 
                 current_session.FillDataGrid(d1, search_grid);
+            }
+            else
+            {
+                string x = prod_namebox.Text;
+                d1 = c1.Select("select ProductID, TypeName as 'Product Type', BrandName, ProductName as 'Product Name', isAvailable as 'Available', UnitPrice as 'Price'"
+                    + " from Products, ProductType, Brand "
+                    + "where Products.TypeID = ProductType.TypeID and Products.BrandID = Brand.BrandID and ProductName like '%" + x + "%'");
+                
+                current_session.FillDataGrid(d1, search_grid);
+
+
             }
         }
     }

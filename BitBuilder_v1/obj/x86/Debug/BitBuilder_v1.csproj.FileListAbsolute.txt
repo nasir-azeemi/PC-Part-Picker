@@ -409,3 +409,8 @@ C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\obj\x86
 C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\obj\x86\Debug\view_all_prod.xbf
 C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\en-US\Microsoft.Toolkit.Uwp.UI.Controls.Properties.Resources.resw
 C:\Users\HomeRyzen\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pri.xml
+C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\obj\x86\Debug\view_build.g.i.cs
+C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\obj\x86\Debug\view_build.g.cs
+C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\obj\x86\Debug\view_build.xaml
+C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\obj\x86\Debug\view_build.xbf
+C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\view_build.xbf

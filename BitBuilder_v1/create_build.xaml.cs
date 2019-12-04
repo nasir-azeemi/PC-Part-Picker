@@ -1,18 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+﻿using System.Data;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -43,12 +31,16 @@ namespace BitBuilder_v1
             curr_price = 0;
 
             proc_tb = c1.Select("select * from Processor p1, Products p2 where p1.ProductID = p2.ProductID");
-            
+
             mobo_tb = c1.Select("select * from Motherboard m1, Products p2 where m1.ProductID = p2.ProductID");
 
             gpu_tb = c1.Select("select * from GPU g1, Products p2 where g1.ProductID = p2.ProductID");
 
             memory_tb = c1.Select("select * from Memory m2, Products p2 where m2.ProductID = p2.ProductID");
+
+            storage_tb = c1.Select("select * from Storage s2, Products p2 where s2.ProductID = p2.ProductID");
+
+            psu_tb = c1.Select("select * from PSU s2, Products p2 where s2.ProductID = p2.ProductID");
 
 
             //chassis_tb = c1.Select("select * from Chassis ch1, Products p2 where ch1.ProductID = p2.ProductID");
@@ -59,10 +51,30 @@ namespace BitBuilder_v1
             {
                 proc_box.Items.Add(proc_tb.Rows[i]["ProductName"]);
             }
-            
+
             for (int i = 0; i < mobo_tb.Rows.Count; i++)
             {
                 mobo_box.Items.Add(mobo_tb.Rows[i]["ProductName"]);
+            }
+
+            for (int i = 0; i < gpu_tb.Rows.Count; i++)
+            {
+                gpu_box.Items.Add(gpu_tb.Rows[i]["ProductName"]);
+            }
+
+            for (int i = 0; i < psu_tb.Rows.Count; i++)
+            {
+                psu_box.Items.Add(psu_tb.Rows[i]["ProductName"]);
+            }
+
+            for (int i = 0; i < memory_tb.Rows.Count; i++)
+            {
+                memory_box.Items.Add(memory_tb.Rows[i]["ProductName"]);
+            }
+
+            for (int i = 0; i < storage_tb.Rows.Count; i++)
+            {
+                storage_box.Items.Add(storage_tb.Rows[i]["ProductName"]);
             }
 
         }
@@ -86,12 +98,12 @@ namespace BitBuilder_v1
                 current_build.gpu_price + current_build.chassis_price + current_build.psu_price + current_build.storage_price;
 
             cost_valuebox.Text = curr_price.ToString();
-  
+
         }
 
         private void mobo_box_Loaded(object sender, RoutedEventArgs e)
         {
-           
+
         }
 
         private void proc_box_Loaded(object sender, RoutedEventArgs e)
@@ -123,7 +135,7 @@ namespace BitBuilder_v1
 
         private void mobo_box_Loaded_1(object sender, RoutedEventArgs e)
         {
-            
+
         }
 
         private void mobo_box_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -211,13 +223,16 @@ namespace BitBuilder_v1
         {
             for (int i = 0; i < proc_tb.Rows.Count; i++)
             {
-               if (proc_tb.Rows[i]["ProductName"].ToString() == proc_box.SelectedItem.ToString())
+                if (proc_tb.Rows[i]["ProductName"].ToString() == proc_box.SelectedItem.ToString())
                 {
                     socket = proc_tb.Rows[i]["SocketID"].ToString();
                     current_build.proc_price = float.Parse(proc_tb.Rows[i]["UnitPrice"].ToString());
                     break;
                 }
             }
+
+            //to reset selected value
+            mobo_box.SelectedIndex = -1;
             upd_price();
             mobo_box_reloaded();
 
@@ -246,17 +261,33 @@ namespace BitBuilder_v1
 
         private void create_btn_Click(object sender, RoutedEventArgs e)
         {
-            if (memory_box.Text != "" && proc_box.Text != "" && mobo_box.Text !="" && storage_box.Text!="" && psu_box.Text!="" && chassis_box.Text!="" && gpu_box.Text !="")
+            string description;
+            if (descrip_txtbox.Text == "")
             {
-                c1.Inserts("insert into builds(unitprice,builddescription) values(" + curr_price.ToString() + ",'" + proc_box.Text + "|" + mobo_box.Text + "|" + memory_box.Text + "|" + gpu_box.Text + "|" + storage_box.Text + "|" + chassis_box.Text + "|" + psu_box.Text + "'");
-                
-                c1.Inserts("insert into builditems(productid,buildid) values((select productid from products where productname like '" + memory_box.Text + "'),(select max(buildid) from builds)");
-                c1.Inserts("insert into builditems(productid,buildid) values((select productid from products where productname like '" + proc_box.Text + "'),(select max(buildid) from builds)");
-                c1.Inserts("insert into builditems(productid,buildid) values((select productid from products where productname like '" + mobo_box.Text + "'),(select max(buildid) from builds)");
-                c1.Inserts("insert into builditems(productid,buildid) values((select productid from products where productname like '" + storage_box.Text + "'),(select max(buildid) from builds)");
-                c1.Inserts("insert into builditems(productid,buildid) values((select productid from products where productname like '" + psu_box.Text + "'),(select max(buildid) from builds)");
-                c1.Inserts("insert into builditems(productid,buildid) values((select productid from products where productname like '" + chassis_box.Text + "'),(select max(buildid) from builds)");
-                c1.Inserts("insert into builditems(productid,buildid) values((select productid from products where productname like '" + gpu_box.Text + "'),(select max(buildid) from builds)");
+                description = proc_box.SelectedItem.ToString() + " " + mobo_box.SelectedItem.ToString();
+            }
+            else
+            {
+                description = descrip_txtbox.Text;
+            }
+            
+            
+            if (memory_box.SelectedItem.ToString() != "" && proc_box.SelectedItem.ToString() != "" && mobo_box.SelectedItem.ToString() != "" && storage_box.SelectedItem.ToString() != "" &&
+                psu_box.SelectedItem.ToString() != "" && chassis_box.SelectedItem.ToString() != "" && gpu_box.SelectedItem.ToString() != "")
+            {
+                c1.Inserts("insert into Builds(unitprice,builddescription) values(" + curr_price.ToString() + ",'" + description + "')");
+
+                c1.Inserts("insert into build_item(productid,buildid) values((select productid from products where productname like '" + memory_box.SelectedItem.ToString() + "'),(select max(buildid) from builds))");
+                c1.Inserts("insert into build_item(productid,buildid) values((select productid from products where productname like '" + proc_box.SelectedItem.ToString() + "'),(select max(buildid) from builds))");
+                c1.Inserts("insert into build_item(productid,buildid) values((select productid from products where productname like '" + mobo_box.SelectedItem.ToString() + "'),(select max(buildid) from builds))");
+                c1.Inserts("insert into build_item(productid,buildid) values((select productid from products where productname like '" + storage_box.SelectedItem.ToString() + "'),(select max(buildid) from builds))");
+                c1.Inserts("insert into build_item(productid,buildid) values((select productid from products where productname like '" + psu_box.SelectedItem.ToString() + "'),(select max(buildid) from builds))");
+                c1.Inserts("insert into build_item(productid,buildid) values((select productid from products where productname like '" + chassis_box.SelectedItem.ToString() + "'),(select max(buildid) from builds))");
+                c1.Inserts("insert into build_item(productid,buildid) values((select productid from products where productname like '" + gpu_box.SelectedItem.ToString() + "'),(select max(buildid) from builds))");
+
+                this.Frame.Navigate(typeof(user_dash));
+                return;
+            
             }
             else
             {

@@ -17,7 +17,7 @@
         <Button x:Name="p_search" Content="Product Search" Height="44" Margin="55,395,0,0" VerticalAlignment="Top" Width="148" Click="p_search_Click"/>
         <Button x:Name="view_cartbtn" Content="View Cart" Height="44" Margin="280,395,0,0" VerticalAlignment="Top" Width="148" Click="view_cartbtn_Click"/>
         <Button x:Name="order_historybtn" Content="Order History" Height="44" Margin="492,395,0,0" VerticalAlignment="Top" Width="148" Click="order_historybtn_Click"/>
-        <Button x:Name="prebuiltbtn" Content="View Pre-built Builds" Height="44" Margin="57,493,0,0" VerticalAlignment="Top" Width="181" Click="Button_Click"/>
+        <Button x:Name="prebuiltbtn" Content="View Pre-built Builds" Height="44" Margin="57,493,0,0" VerticalAlignment="Top" Width="181" Click="prebuiltbtn_Click"/>
         <Button x:Name="create_bldbtn" Content="Create Build" Height="44" Margin="280,493,0,0" VerticalAlignment="Top" Width="148" Click="create_bldbtn_Click"/>
     </Grid>
 </Page>

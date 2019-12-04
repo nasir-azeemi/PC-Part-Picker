@@ -155,8 +155,9 @@
     <Compile Include="add_disp.xaml.cs">
       <DependentUpon>add_disp.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BlankPage1.xaml.cs">
-      <DependentUpon>BlankPage1.xaml</DependentUpon>
+    <Compile Include="Cart.cs" />
+    <Compile Include="view_build.xaml.cs">
+      <DependentUpon>view_build.xaml</DependentUpon>
     </Compile>
     <Compile Include="create_build.xaml.cs">
       <DependentUpon>create_build.xaml</DependentUpon>
@@ -340,7 +341,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="BlankPage1.xaml">
+    <Page Include="view_build.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

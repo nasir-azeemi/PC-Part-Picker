@@ -10,17 +10,15 @@
 
     <Grid>
         <TextBlock x:ConnectionId='2' x:Name="welcome_txt" HorizontalAlignment="Left" Height="48" Margin="57,30,0,0" Text="Update Price" TextWrapping="Wrap" VerticalAlignment="Top" Width="494" Foreground="#FF2097B2" FontFamily="Calibri Light" FontSize="28"/>
-        <TextBlock x:ConnectionId='3' HorizontalAlignment="Left" Height="30" Margin="69,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18"                                               Text="Product Name"/>
-        <TextBox x:ConnectionId='4' x:Name="namebox" HorizontalAlignment="Left" Height="40" Margin="325,116,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" PlaceholderText="Enter Name to Search"/>
-        <TextBlock x:ConnectionId='5' HorizontalAlignment="Left" Height="30" Margin="69,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18"                                               Text="Product ID"/>
-        <TextBox x:ConnectionId='6' x:Name="ID_box" HorizontalAlignment="Left" Height="40" Margin="325,184,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" PlaceholderText="Enter Product ID to Search"/>
-        <Button x:ConnectionId='7' x:Name="search_bttn" Content="Search" Margin="732,124,0,0" VerticalAlignment="Top" Width="150"/>
-        <TextBlock x:ConnectionId='8' HorizontalAlignment="Left" Height="30" Margin="69,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18"                                               Text="Current Price"/>
-        <TextBlock x:ConnectionId='9' HorizontalAlignment="Left" Height="30" Margin="69,360,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18"                                               Text="New Price"/>
-        <TextBox x:ConnectionId='10' x:Name="curr_priceBox" HorizontalAlignment="Left" Height="40" Margin="325,288,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" PlaceholderText=""                                         IsEnabled="False"/>
-        <TextBox x:ConnectionId='11' x:Name="new_priceBox" HorizontalAlignment="Left" Height="40" Margin="325,352,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" PlaceholderText=""/>
-        <Button x:ConnectionId='12' x:Name="upd_bttn" Content="Update Price" Margin="980,608,0,0" VerticalAlignment="Top" Width="130"                       />
-        <Button x:ConnectionId='13' x:Name="cancel_bttn" Content="Cancel" Margin="807,608,0,0" VerticalAlignment="Top" Width="130"                          />
+        <TextBlock x:ConnectionId='3' HorizontalAlignment="Left" Height="30" Margin="64,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18"                                               Text="Product ID"/>
+        <TextBox x:ConnectionId='4' x:Name="ID_box" HorizontalAlignment="Left" Height="40" Margin="325,126,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" PlaceholderText="Enter Product ID to Search"/>
+        <Button x:ConnectionId='5' x:Name="search_bttn" Content="Search" Margin="732,124,0,0" VerticalAlignment="Top" Width="150"                          />
+        <TextBlock x:ConnectionId='6' HorizontalAlignment="Left" Height="30" Margin="69,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18"                                               Text="Current Price"/>
+        <TextBlock x:ConnectionId='7' HorizontalAlignment="Left" Height="30" Margin="69,360,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18"                                               Text="New Price"/>
+        <TextBox x:ConnectionId='8' x:Name="curr_priceBox" HorizontalAlignment="Left" Height="40" Margin="325,288,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" PlaceholderText=""                                         IsEnabled="False"/>
+        <TextBox x:ConnectionId='9' x:Name="new_priceBox" HorizontalAlignment="Left" Height="40" Margin="325,352,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" PlaceholderText=""/>
+        <Button x:ConnectionId='10' x:Name="upd_bttn" Content="Update Price" Margin="980,608,0,0" VerticalAlignment="Top" Width="130"                       />
+        <Button x:ConnectionId='11' x:Name="cancel_bttn" Content="Cancel" Margin="807,608,0,0" VerticalAlignment="Top" Width="130"                          />
 
     </Grid>
 </Page>

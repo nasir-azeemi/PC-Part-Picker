@@ -29,6 +29,8 @@
         <TextBlock x:ConnectionId='19' x:Name="cost_textbox" HorizontalAlignment="Left" Height="47" Margin="753,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Foreground="#FF2097B2" FontSize="28" FontFamily="Calibri Light" Text="Total Cost:"/>
         <TextBlock x:ConnectionId='20' x:Name="cost_valuebox" HorizontalAlignment="Left" Height="47" Margin="889,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Foreground="#FF2097B2" FontSize="28" FontFamily="Calibri Light" Text=""/>
         <ComboBox x:ConnectionId='21' x:Name="mobo_box" Height="42" Margin="402,209,0,0" Width="238"                                                                        />
+        <TextBlock x:ConnectionId='22' x:Name="Descrip_txtblock" HorizontalAlignment="Left" Height="47" Margin="723,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="314" Foreground="#FF2097B2" FontSize="28" FontFamily="Calibri Light"><Run Text="Enter your description:"/><LineBreak/><Run/></TextBlock>
+        <TextBox x:ConnectionId='23' x:Name="descrip_txtbox" HorizontalAlignment="Left" Height="85" Margin="718,323,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="406"/>
     </Grid>
 </Page>
 

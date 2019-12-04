@@ -70,7 +70,6 @@ add_storage.xbf
 admin_dash.xbf
 App.xbf
 BitBuilder_v1.xr.xml
-BlankPage1.xbf
 cart.xbf
 create_build.xbf
 login.xbf
@@ -91,4 +90,5 @@ upd_storage.xbf
 update_prod.xbf
 user_dash.xbf
 view_all_prod.xbf
+view_build.xbf
 Properties\Default.rd.xml

@@ -10,9 +10,30 @@
 
     <Grid>
         <TextBlock HorizontalAlignment="Left" Height="70" Margin="78,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="426" FontSize="28" FontFamily="Calibri Light" Foreground="#FF2097B2"><Run Text="Your Cart"/><LineBreak/><Run/></TextBlock>
-        <ListView HorizontalAlignment="Left" Height="430" Margin="78,185,0,0" VerticalAlignment="Top" Width="1121" BorderBrush="Black"/>
-        <Button x:ConnectionId='2' x:Name="chkoutbtn" Content="Checkout" Height="47" Margin="1037,642,0,0" VerticalAlignment="Top" Width="162" FontSize="18"/>
-        <Button x:ConnectionId='3' x:Name="returnbtn" Content="Return to Dashboard" Height="47" Margin="778,642,0,0" VerticalAlignment="Top" Width="204" FontSize="18"                        />
+        <ListView x:ConnectionId='2' x:Name="cart_list" HorizontalAlignment="Left" Height="430" Margin="78,185,0,0" VerticalAlignment="Top" Width="1121" BorderBrush="Black">
+            <ListView.ItemTemplate>
+            <DataTemplate>
+                <StackPanel>
+                    <TextBlock Text="{Binding itemid}" 
+                           Margin="20,0,20,8"
+                           FontSize="16" 
+                           Foreground="DarkBlue" />
+                    <TextBlock Text="{Binding buildid}" 
+                           Margin="20,0,20,8"
+                           FontSize="16"
+                           Foreground="DarkBlue" 
+                           Opacity="0.8" />
+                        <TextBlock Text="{Binding itemname}" 
+                        Margin="20,0,20,8"
+                        FontSize="16"
+                        Foreground="DarkBlue" 
+                        Opacity="0.8" />
+                    </StackPanel>
+            </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button x:ConnectionId='3' x:Name="chkoutbtn" Content="Checkout" Height="47" Margin="1037,642,0,0" VerticalAlignment="Top" Width="162" FontSize="18"/>
+        <Button x:ConnectionId='4' x:Name="returnbtn" Content="Return to Dashboard" Height="47" Margin="778,642,0,0" VerticalAlignment="Top" Width="204" FontSize="18"                        />
 
     </Grid>
 </Page>

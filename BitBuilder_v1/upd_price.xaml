@@ -10,11 +10,9 @@
 
     <Grid>
         <TextBlock x:Name="welcome_txt" HorizontalAlignment="Left" Height="48" Margin="57,30,0,0" Text="Update Price" TextWrapping="Wrap" VerticalAlignment="Top" Width="494" Foreground="#FF2097B2" FontFamily="Calibri Light" FontSize="28"/>
-        <TextBlock HorizontalAlignment="Left" Height="30" Margin="69,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18" SelectionChanged="TextBlock_SelectionChanged" Text="Product Name"/>
-        <TextBox x:Name="namebox" HorizontalAlignment="Left" Height="40" Margin="325,116,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" PlaceholderText="Enter Name to Search"/>
-        <TextBlock HorizontalAlignment="Left" Height="30" Margin="69,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18" SelectionChanged="TextBlock_SelectionChanged" Text="Product ID"/>
-        <TextBox x:Name="ID_box" HorizontalAlignment="Left" Height="40" Margin="325,184,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" PlaceholderText="Enter Product ID to Search"/>
-        <Button x:Name="search_bttn" Content="Search" Margin="732,124,0,0" VerticalAlignment="Top" Width="150"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="64,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18" SelectionChanged="TextBlock_SelectionChanged" Text="Product ID"/>
+        <TextBox x:Name="ID_box" HorizontalAlignment="Left" Height="40" Margin="325,126,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" PlaceholderText="Enter Product ID to Search"/>
+        <Button x:Name="search_bttn" Content="Search" Margin="732,124,0,0" VerticalAlignment="Top" Width="150" Click="search_bttn_Click"/>
         <TextBlock HorizontalAlignment="Left" Height="30" Margin="69,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18" SelectionChanged="TextBlock_SelectionChanged" Text="Current Price"/>
         <TextBlock HorizontalAlignment="Left" Height="30" Margin="69,360,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" FontSize="18" SelectionChanged="TextBlock_SelectionChanged" Text="New Price"/>
         <TextBox x:Name="curr_priceBox" HorizontalAlignment="Left" Height="40" Margin="325,288,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" PlaceholderText="" TextChanged="curr_priceBox_TextChanged" IsEnabled="False"/>

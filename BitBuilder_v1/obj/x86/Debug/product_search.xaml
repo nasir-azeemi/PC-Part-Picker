@@ -10,16 +10,16 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button x:ConnectionId='2' x:Name="cart_view_bttn" Content="View Cart" Height="45" Margin="694,661,0,0" VerticalAlignment="Top" Width="151" RenderTransformOrigin="0.224,1.333"/>
-        <TextBox x:ConnectionId='3' x:Name="prod_namebox" HorizontalAlignment="Left" Height="45" Margin="319,179,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="559"/>
-        <ComboBox x:ConnectionId='4' x:Name="categ_box" Width="277" Margin="322,109,0,0" Height="44"                          />
+        <TextBox x:ConnectionId='2' x:Name="prod_namebox" HorizontalAlignment="Left" Height="45" Margin="319,179,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="559"/>
+        <ComboBox x:ConnectionId='3' x:Name="categ_box" Width="277" Margin="322,109,0,0" Height="44"                          />
         <TextBlock HorizontalAlignment="Left" Height="40" Margin="85,119,0,0" Text="Category:" TextWrapping="Wrap" VerticalAlignment="Top" Width="94" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Height="40" Margin="85,179,0,0" Text="Product Name:" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" FontSize="18"/>
-        <Button x:ConnectionId='5' x:Name="search_btn" Content="Search" Height="45" Margin="1034,58,0,0" VerticalAlignment="Top" Width="161"                         />
-        <Button x:ConnectionId='6' x:Name="close_bttn" Content="Close" Height="45" Margin="1044,661,0,0" VerticalAlignment="Top" Width="151" RenderTransformOrigin="0.224,1.333"                         />
-        <Button x:ConnectionId='7' x:Name="cart_add_bttn_Copy" Content="Add to Cart" Height="45" Margin="876,661,0,0" VerticalAlignment="Top" Width="151" RenderTransformOrigin="0.224,1.333"/>
+        <Button x:ConnectionId='4' x:Name="search_btn" Content="Search" Height="45" Margin="1034,58,0,0" VerticalAlignment="Top" Width="161"                         />
+        <Button x:ConnectionId='5' x:Name="close_bttn" Content="Return to Dashboard" Height="45" Margin="1044,653,0,0" VerticalAlignment="Top" Width="151" RenderTransformOrigin="0.224,1.333"                         />
+        <Button x:ConnectionId='6' x:Name="cart_add_bttn_Copy" Content="Add to Cart" Height="45" Margin="862,653,0,0" VerticalAlignment="Top" Width="151" RenderTransformOrigin="0.224,1.333"                                 />
         <TextBlock HorizontalAlignment="Left" Height="58" Margin="85,33,0,0" Text="Product Search" TextWrapping="Wrap" VerticalAlignment="Top" Width="203" FontFamily="Calibri Light" FontSize="28" Foreground="#FF2097B2"/>
-        <Custom:DataGrid x:ConnectionId='8' x:Name="search_grid" HorizontalAlignment="Center" Height="330" Margin="0,281,0,0" VerticalAlignment="Top" Width="1110"/>
+        <Custom:DataGrid x:ConnectionId='7' x:Name="search_grid" HorizontalAlignment="Center" Height="330" Margin="0,289,0,0" VerticalAlignment="Top" Width="1110" AutoGenerateColumns="False"/>
+        <TextBox x:ConnectionId='8' x:Name="buildid_box" HorizontalAlignment="Left" Height="49" Margin="599,651,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" PlaceholderText="Enter ProductID to add to cart"/>
     </Grid>
 </Page>
 

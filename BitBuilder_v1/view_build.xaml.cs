@@ -21,22 +21,34 @@ namespace BitBuilder_v1
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Build_list : Page
+    public sealed partial class view_build : Page
     {
         DBconnection c1;
         DataTable d1;
 
-        public Build_list()
+        public view_build()
         {
             this.InitializeComponent();
             c1 = new DBconnection();
             d1 = c1.Select("select * from Builds");
-            current_session.FillDataGrid(d1, buildgrid);
+            current_session.FillDataGrid(d1, builds_grid);
         }
 
         private void ATCbtn_click(object sender, RoutedEventArgs e)
         {
+            string x = buildid_box.Text;
+            Cart.add_to_cart(x, true);
+        }
 
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void return_btn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(user_dash));
+            return;
         }
     }
 }
