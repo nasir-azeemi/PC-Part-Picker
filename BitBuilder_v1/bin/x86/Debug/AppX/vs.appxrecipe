@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-03T19:06:01.250</Modified>
+      <Modified>2019-12-04T19:29:52.547</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\BitBuilder_v1.exe">
       <PackagePath>entrypoint\BitBuilder_v1.exe</PackagePath>
-      <Modified>2019-12-03T19:06:00.566</Modified>
+      <Modified>2019-12-04T19:29:51.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.0.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
@@ -324,135 +324,139 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\BitBuilder_v1.xr.xml">
       <PackagePath>BitBuilder_v1.xr.xml</PackagePath>
-      <Modified>2019-12-03T19:03:21.094</Modified>
+      <Modified>2019-12-04T18:07:36.245</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.327</Modified>
+      <Modified>2019-12-04T19:28:45.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\accdetails.xbf">
       <PackagePath>accdetails.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.328</Modified>
+      <Modified>2019-12-04T19:28:45.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\admin_dash.xbf">
       <PackagePath>admin_dash.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.328</Modified>
+      <Modified>2019-12-04T19:28:45.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_product.xbf">
       <PackagePath>add_product.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.329</Modified>
+      <Modified>2019-12-04T19:28:45.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_proc.xbf">
       <PackagePath>add_proc.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.329</Modified>
+      <Modified>2019-12-04T19:28:45.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_mobo.xbf">
       <PackagePath>add_mobo.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.329</Modified>
+      <Modified>2019-12-04T19:28:45.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_gpu.xbf">
       <PackagePath>add_gpu.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.329</Modified>
+      <Modified>2019-12-04T19:28:45.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_storage.xbf">
       <PackagePath>add_storage.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.330</Modified>
+      <Modified>2019-12-04T19:28:45.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_memory.xbf">
       <PackagePath>add_memory.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.330</Modified>
+      <Modified>2019-12-04T19:28:45.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_psu.xbf">
       <PackagePath>add_psu.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.330</Modified>
+      <Modified>2019-12-04T19:28:45.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_chassis.xbf">
       <PackagePath>add_chassis.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.331</Modified>
+      <Modified>2019-12-04T19:28:45.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_periph.xbf">
       <PackagePath>add_periph.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.331</Modified>
+      <Modified>2019-12-04T19:28:45.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_disp.xbf">
       <PackagePath>add_disp.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.331</Modified>
+      <Modified>2019-12-04T19:28:45.139</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\create_build.xbf">
+      <PackagePath>create_build.xbf</PackagePath>
+      <Modified>2019-12-04T19:28:45.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\view_all_prod.xbf">
       <PackagePath>view_all_prod.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.331</Modified>
+      <Modified>2019-12-04T19:28:45.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_price.xbf">
       <PackagePath>upd_price.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.332</Modified>
+      <Modified>2019-12-04T19:28:45.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_storage.xbf">
       <PackagePath>upd_storage.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.332</Modified>
+      <Modified>2019-12-04T19:28:45.141</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_psu.xbf">
       <PackagePath>upd_psu.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.332</Modified>
+      <Modified>2019-12-04T19:28:45.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_proc.xbf">
       <PackagePath>upd_proc.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.332</Modified>
+      <Modified>2019-12-04T19:28:45.143</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_periph.xbf">
       <PackagePath>upd_periph.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.332</Modified>
+      <Modified>2019-12-04T19:28:45.146</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_mobo.xbf">
       <PackagePath>upd_mobo.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.333</Modified>
+      <Modified>2019-12-04T19:28:45.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_memory.xbf">
       <PackagePath>upd_memory.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.333</Modified>
+      <Modified>2019-12-04T19:28:45.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_gpu.xbf">
       <PackagePath>upd_gpu.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.333</Modified>
+      <Modified>2019-12-04T19:28:45.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_disp.xbf">
       <PackagePath>upd_disp.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.333</Modified>
+      <Modified>2019-12-04T19:28:45.149</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\upd_chassis.xbf">
       <PackagePath>upd_chassis.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.334</Modified>
+      <Modified>2019-12-04T19:28:45.149</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\update_prod.xbf">
       <PackagePath>update_prod.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.334</Modified>
+      <Modified>2019-12-04T19:28:45.149</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\persdetail.xbf">
       <PackagePath>persdetail.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.334</Modified>
+      <Modified>2019-12-04T19:28:45.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\orderhistory.xbf">
       <PackagePath>orderhistory.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.334</Modified>
+      <Modified>2019-12-04T19:28:45.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\cart.xbf">
       <PackagePath>cart.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.335</Modified>
+      <Modified>2019-12-04T19:28:45.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\registerform.xbf">
       <PackagePath>registerform.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.335</Modified>
+      <Modified>2019-12-04T19:28:45.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\user_dash.xbf">
       <PackagePath>user_dash.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.335</Modified>
+      <Modified>2019-12-04T19:28:45.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\product_search.xbf">
       <PackagePath>product_search.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.335</Modified>
+      <Modified>2019-12-04T19:28:45.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\login.xbf">
       <PackagePath>login.xbf</PackagePath>
-      <Modified>2019-12-03T19:06:00.335</Modified>
+      <Modified>2019-12-04T19:28:45.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -464,11 +468,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-12-01T18:56:32.448</Modified>
+      <Modified>2019-12-04T17:48:13.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\Core\BitBuilder_v1.exe">
       <PackagePath>BitBuilder_v1.exe</PackagePath>
-      <Modified>2019-12-03T19:06:01.242</Modified>
+      <Modified>2019-12-04T19:29:52.491</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

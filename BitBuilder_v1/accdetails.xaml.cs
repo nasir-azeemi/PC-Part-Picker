@@ -22,14 +22,12 @@ namespace BitBuilder_v1
     /// </summary>
     public sealed partial class accdetails : Page
     {
-        bool update_pass;
         DBconnection c1;
 
         public accdetails()
         {
             this.InitializeComponent();
             c1 = new DBconnection();
-            update_pass = false;
             emailbox.Text = current_session.emailid;
         }
 
@@ -49,6 +47,7 @@ namespace BitBuilder_v1
                 {
                     c1.Inserts("update AppUser set userpassword = '" + newpass_box.Text + "' where CustomerID = " + current_session.customer_id.ToString());
                 }
+                update_email();
 
             }
             else

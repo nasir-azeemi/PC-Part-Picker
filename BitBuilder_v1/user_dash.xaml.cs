@@ -74,5 +74,11 @@ namespace BitBuilder_v1
             this.Frame.Navigate(typeof(persdetail));
 
         }
+
+        private void create_bldbtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(create_build));
+            return;
+        }
     }
 }

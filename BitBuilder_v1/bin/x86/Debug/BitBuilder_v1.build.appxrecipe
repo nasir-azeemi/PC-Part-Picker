@@ -293,6 +293,9 @@
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\add_disp.xbf">
       <PackagePath>add_disp.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\create_build.xbf">
+      <PackagePath>create_build.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Salman\Documents\GitHub\DBS-Fall-19-Bitbuilder\BitBuilder_v1\bin\x86\Debug\view_all_prod.xbf">
       <PackagePath>view_all_prod.xbf</PackagePath>
     </AppxPackagedFile>

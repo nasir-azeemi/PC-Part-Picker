@@ -155,6 +155,9 @@
     <Compile Include="add_disp.xaml.cs">
       <DependentUpon>add_disp.xaml</DependentUpon>
     </Compile>
+    <Compile Include="create_build.xaml.cs">
+      <DependentUpon>create_build.xaml</DependentUpon>
+    </Compile>
     <Compile Include="view_all_prod.xaml.cs">
       <DependentUpon>view_all_prod.xaml</DependentUpon>
     </Compile>
@@ -331,6 +334,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="add_disp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="create_build.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

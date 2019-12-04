@@ -87,7 +87,18 @@ namespace BitBuilder_v1
         public static string currentpass;
         public static string current_email;
 
+    }
 
+    class current_build
+    {
+        private current_build() { }
 
+        public static float proc_price;
+        public static float mobo_price;
+        public static float gpu_price;
+        public static float mem_price;
+        public static float chassis_price;
+        public static float storage_price;
+        public static float psu_price;
     }
 }
