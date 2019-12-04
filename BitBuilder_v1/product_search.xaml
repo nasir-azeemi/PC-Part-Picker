@@ -19,6 +19,6 @@
         <Button x:Name="close_bttn" Content="Close" Height="45" Margin="1044,661,0,0" VerticalAlignment="Top" Width="151" RenderTransformOrigin="0.224,1.333" Click="close_bttn_Click"/>
         <Button x:Name="cart_add_bttn_Copy" Content="Add to Cart" Height="45" Margin="876,661,0,0" VerticalAlignment="Top" Width="151" RenderTransformOrigin="0.224,1.333"/>
         <TextBlock HorizontalAlignment="Left" Height="58" Margin="85,33,0,0" Text="Product Search" TextWrapping="Wrap" VerticalAlignment="Top" Width="203" FontFamily="Calibri Light" FontSize="28" Foreground="#FF2097B2"/>
-        <Custom:DataGrid x:Name="search_grid" HorizontalAlignment="Center" Height="330" Margin="0,281,0,0" VerticalAlignment="Top" Width="1110"/>
+        <Custom:DataGrid x:Name="search_grid" HorizontalAlignment="Center" Height="330" Margin="0,289,0,0" VerticalAlignment="Top" Width="1110"/>
     </Grid>
 </Page>

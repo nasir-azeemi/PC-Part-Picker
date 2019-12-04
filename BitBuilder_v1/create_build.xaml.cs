@@ -50,6 +50,7 @@ namespace BitBuilder_v1
 
             memory_tb = c1.Select("select * from Memory m2, Products p2 where m2.ProductID = p2.ProductID");
 
+
             //chassis_tb = c1.Select("select * from Chassis ch1, Products p2 where ch1.ProductID = p2.ProductID");
 
 
@@ -151,6 +152,7 @@ namespace BitBuilder_v1
                     break;
                 }
             }
+            upd_price();
         }
 
         private void memory_box_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -163,6 +165,7 @@ namespace BitBuilder_v1
                     break;
                 }
             }
+            upd_price();
         }
 
         private void chassis_box_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -188,6 +191,7 @@ namespace BitBuilder_v1
                     break;
                 }
             }
+            upd_price();
         }
 
         private void storage_box_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -200,6 +204,7 @@ namespace BitBuilder_v1
                     break;
                 }
             }
+            upd_price();
         }
 
         private void proc_box_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -241,9 +246,27 @@ namespace BitBuilder_v1
 
         private void create_btn_Click(object sender, RoutedEventArgs e)
         {
-
-
-
+            if (memory_box.Text != "" && proc_box.Text != "" && mobo_box.Text !="" && storage_box.Text!="" && psu_box.Text!="" && chassis_box.Text!="" && gpu_box.Text !="")
+            {
+                c1.Inserts("insert into builds(unitprice,builddescription) values(" + curr_price.ToString() + ",'" + proc_box.Text + "|" + mobo_box.Text + "|" + memory_box.Text + "|" + gpu_box.Text + "|" + storage_box.Text + "|" + chassis_box.Text + "|" + psu_box.Text + "'");
+                
+                c1.Inserts("insert into builditems(productid,buildid) values((select productid from products where productname like '" + memory_box.Text + "'),(select max(buildid) from builds)");
+                c1.Inserts("insert into builditems(productid,buildid) values((select productid from products where productname like '" + proc_box.Text + "'),(select max(buildid) from builds)");
+                c1.Inserts("insert into builditems(productid,buildid) values((select productid from products where productname like '" + mobo_box.Text + "'),(select max(buildid) from builds)");
+                c1.Inserts("insert into builditems(productid,buildid) values((select productid from products where productname like '" + storage_box.Text + "'),(select max(buildid) from builds)");
+                c1.Inserts("insert into builditems(productid,buildid) values((select productid from products where productname like '" + psu_box.Text + "'),(select max(buildid) from builds)");
+                c1.Inserts("insert into builditems(productid,buildid) values((select productid from products where productname like '" + chassis_box.Text + "'),(select max(buildid) from builds)");
+                c1.Inserts("insert into builditems(productid,buildid) values((select productid from products where productname like '" + gpu_box.Text + "'),(select max(buildid) from builds)");
+            }
+            else
+            {
+                ContentDialog errorDialog = new ContentDialog
+                {
+                    Title = "Missing Fields",
+                    Content = "You must select each component to create a build",
+                    CloseButtonText = "Return to Build"
+                };
+            }
         }
 
         private void cancelbtn_Click(object sender, RoutedEventArgs e)

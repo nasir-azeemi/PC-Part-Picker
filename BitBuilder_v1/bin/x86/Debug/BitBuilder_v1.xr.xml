@@ -110,6 +110,7 @@
     <RootType FullName="BitBuilder_v1.add_chassis" />
     <RootType FullName="BitBuilder_v1.add_periph" />
     <RootType FullName="BitBuilder_v1.add_disp" />
+    <RootType FullName="BitBuilder_v1.BlankPage1" />
     <RootType FullName="BitBuilder_v1.create_build" />
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
       <RootProperty Name="HorizontalAlignment" />
