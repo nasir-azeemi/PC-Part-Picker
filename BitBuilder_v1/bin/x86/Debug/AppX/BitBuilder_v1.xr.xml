@@ -139,6 +139,7 @@
     <RootType FullName="BitBuilder_v1.upd_chassis" />
     <RootType FullName="BitBuilder_v1.update_prod" />
     <RootType FullName="BitBuilder_v1.persdetail" />
+    <RootType FullName="BitBuilder_v1.orderhistory" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
@@ -148,7 +149,6 @@
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="ItemTemplate" />
     </RootType>
-    <RootType FullName="BitBuilder_v1.orderhistory" />
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
     </RootType>

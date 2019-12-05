@@ -32,7 +32,7 @@
             </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button x:Name="chkoutbtn" Content="Checkout" Height="47" Margin="1037,642,0,0" VerticalAlignment="Top" Width="162" FontSize="18"/>
+        <Button x:Name="chkoutbtn" Content="Checkout" Height="47" Margin="1037,642,0,0" VerticalAlignment="Top" Width="162" FontSize="18" Click="chkoutbtn_Click"/>
         <Button x:Name="returnbtn" Content="Return to Dashboard" Height="47" Margin="778,642,0,0" VerticalAlignment="Top" Width="204" FontSize="18" Click="returnbtn_Click"/>
 
     </Grid>

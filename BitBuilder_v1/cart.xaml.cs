@@ -22,10 +22,12 @@ namespace BitBuilder_v1
     /// </summary>
     public sealed partial class cart : Page
     {
+        DBconnection c1;
         public cart()
         {
             this.InitializeComponent();
             cart_list.ItemsSource = Cart.cart_collection;
+            c1 = new DBconnection();
         }
 
         private void returnbtn_Click(object sender, RoutedEventArgs e)
@@ -36,6 +38,33 @@ namespace BitBuilder_v1
         private void InventoryList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
+        }
+
+        private void chkoutbtn_Click(object sender, RoutedEventArgs e)
+        {
+            c1.Inserts("insert into Orders (CustomerID, OrderDate) values ('" +current_session.customer_id+"', getdate())");
+
+            foreach(var cartitem in Cart.cart_collection)
+            {
+                if(cartitem.is_build)
+                {
+                    c1.Inserts("insert into OrderItem(BuildID, OrderID, UnitPrice, Quantity) values ('"+cartitem.buildid+"', (select max(OrderID) from Orders), (select UnitPrice from Builds where BuildID = '"+
+                        cartitem.buildid+"'), 1 )");
+                }
+                else
+                {
+                    c1.Inserts("insert into OrderItem(ProductID, OrderID, UnitPrice, Quantity) values ('" + cartitem.itemid + "', (select max(OrderID) from Orders), (select UnitPrice from Products where ProductID = '" +
+                        cartitem.itemid + "'), 1 )");
+
+                }
+            }
+            Cart.clear_cart();
+            ContentDialog success = new ContentDialog
+            {
+                Title = "Order Placed",
+                Content = "Order Placed for "+ current_session.customer_name,
+                CloseButtonText = "Return to Cart"
+            };
         }
     }
 }

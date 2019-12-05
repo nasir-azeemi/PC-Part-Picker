@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -22,9 +23,14 @@ namespace BitBuilder_v1
     /// </summary>
     public sealed partial class orderhistory : Page
     {
+        DBconnection c1;
+        DataTable ord_tb;
         public orderhistory()
         {
             this.InitializeComponent();
+            c1 = new DBconnection();
+            ord_tb = c1.Select("select o.OrderID, o.CustomerID, o.OrderDate, sum(oi.UnitPrice) as [Total Price] from Orders o, OrderItem oi where o.OrderID = oi.OrderID and CustomerID = " + current_session.customer_id + " group by o.OrderID, o.CustomerID, o.OrderDate");
+            current_session.FillDataGrid(ord_tb, order_histgrid);
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -35,6 +41,7 @@ namespace BitBuilder_v1
         private void returnbtn_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(user_dash));
+            return;
         }
     }
 }
